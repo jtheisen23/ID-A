@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kentucky Market Intelligence — ID-A</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+</head>
+<body>
+  <div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <span class="logo-mark">ID</span><span class="logo-dash">—</span><span class="logo-a">A</span>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active" data-view="dashboard">
+          <i class="ti ti-layout-dashboard"></i><span>Dashboard</span>
+        </a>
+        <a href="#" class="nav-item" data-view="pipeline">
+          <i class="ti ti-list-check"></i><span>Pipeline</span>
+        </a>
+        <a href="#" class="nav-item" data-view="add">
+          <i class="ti ti-circle-plus"></i><span>Add project</span>
+        </a>
+        <a href="#" class="nav-item" data-view="import">
+          <i class="ti ti-file-import"></i><span>Import CSV</span>
+        </a>
+      </nav>
+      <div class="sidebar-footer">
+        <span>FY 2025</span>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main">
+
+      <!-- DASHBOARD VIEW -->
+      <section class="view active" id="view-dashboard">
+        <div class="view-header">
+          <div>
+            <h1>Kentucky market intelligence</h1>
+            <p class="view-sub">Project pipeline · Tier 1 &amp; 2 markets · Healthcare · Gov't · Higher Ed · K-12</p>
+          </div>
+          <div class="header-actions">
+            <button class="btn-outline" id="btnExportDash">
+              <i class="ti ti-download"></i> Export CSV
+            </button>
+          </div>
+        </div>
+
+        <div class="metrics" id="dashMetrics"></div>
+
+        <div class="filter-bar" id="dashFilters">
+          <button class="filter-btn active" data-filter="all">All verticals</button>
+          <button class="filter-btn" data-filter="health">Healthcare</button>
+          <button class="filter-btn" data-filter="gov">Gov't</button>
+          <button class="filter-btn" data-filter="edu">Higher Ed</button>
+          <button class="filter-btn" data-filter="k12">K-12</button>
+          <button class="filter-btn" data-filter="corp">Corporate</button>
+        </div>
+
+        <div class="dash-grid">
+          <div class="card card-wide">
+            <p class="card-label">Kentucky heat map — project activity by market</p>
+            <div id="mapContainer"></div>
+            <div class="map-legend">
+              <span class="leg-item"><span class="leg-dot t1"></span>Tier 1 market</span>
+              <span class="leg-item"><span class="leg-dot t2"></span>Tier 2 market</span>
+              <span class="leg-item"><span class="leg-dot cap"></span>State capital</span>
+              <span class="leg-note">Bubble size = project volume</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <p class="card-label">Projects by market</p>
+            <div class="chart-wrap" style="height:220px;">
+              <canvas id="mktChart" role="img" aria-label="Bar chart of projects by Kentucky market"></canvas>
+            </div>
+          </div>
+
+          <div class="card">
+            <p class="card-label">Projects by vertical</p>
+            <div class="chart-wrap" style="height:220px;">
+              <canvas id="vertChart" role="img" aria-label="Donut chart of projects by vertical"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <div class="card-row-header">
+            <p class="card-label">Active project pipeline</p>
+            <span class="proj-count" id="projCount">0 projects</span>
+          </div>
+          <div id="dashProjList" class="proj-list"></div>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <p class="card-label">Intelligence sources — where to look</p>
+          <div id="sourceList"></div>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <p class="card-label">Quick searches</p>
+          <div class="quick-grid" id="quickGrid"></div>
+        </div>
+      </section>
+
+      <!-- PIPELINE VIEW -->
+      <section class="view" id="view-pipeline">
+        <div class="view-header">
+          <div>
+            <h1>Project pipeline</h1>
+            <p class="view-sub">All tracked projects across Kentucky markets</p>
+          </div>
+          <div class="header-actions">
+            <button class="btn-outline" id="btnExportPipeline">
+              <i class="ti ti-download"></i> Export CSV
+            </button>
+            <button class="btn-primary" onclick="showView('add')">
+              <i class="ti ti-plus"></i> Add project
+            </button>
+          </div>
+        </div>
+        <div class="filter-bar" id="pipeFilters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="health">Healthcare</button>
+          <button class="filter-btn" data-filter="gov">Gov't</button>
+          <button class="filter-btn" data-filter="edu">Higher Ed</button>
+          <button class="filter-btn" data-filter="k12">K-12</button>
+          <button class="filter-btn" data-filter="corp">Corporate</button>
+        </div>
+        <div class="card">
+          <div id="pipelineFullList" class="proj-list"></div>
+          <div id="pipelineEmpty" class="empty-state" style="display:none;">
+            <i class="ti ti-inbox"></i>
+            <p>No projects yet. Add one manually or import from BuildingConnected.</p>
+            <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;">
+              <button class="btn-primary" onclick="showView('add')">Add project</button>
+              <button class="btn-outline" onclick="showView('import')">Import CSV</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADD PROJECT VIEW -->
+      <section class="view" id="view-add">
+        <div class="view-header">
+          <div>
+            <h1>Add project</h1>
+            <p class="view-sub">Log a new BuildingConnected find or manual lead</p>
+          </div>
+        </div>
+        <div class="card form-card">
+          <p class="section-label">Project details</p>
+          <div class="form-grid">
+            <div class="field full">
+              <label>Project name <span class="req">*</span></label>
+              <input type="text" id="projName" placeholder="e.g. NKY Medical Center Expansion" />
+              <span class="err" id="errName">Project name is required</span>
+            </div>
+            <div class="field">
+              <label>Market <span class="req">*</span></label>
+              <select id="projMarket">
+                <option value="">Select market…</option>
+                <optgroup label="Tier 1">
+                  <option value="Louisville">Louisville</option>
+                  <option value="Lexington">Lexington</option>
+                  <option value="N. Kentucky">N. Kentucky (Florence/Union)</option>
+                </optgroup>
+                <optgroup label="Tier 2 — I-65 corridor">
+                  <option value="Elizabethtown">Elizabethtown</option>
+                  <option value="Bowling Green">Bowling Green</option>
+                </optgroup>
+                <optgroup label="Tier 2 — other">
+                  <option value="Georgetown">Georgetown</option>
+                  <option value="Frankfort">Frankfort</option>
+                </optgroup>
+                <option value="Other KY">Other KY market</option>
+              </select>
+              <span class="err" id="errMarket">Market is required</span>
+            </div>
+            <div class="field">
+              <label>Vertical <span class="req">*</span></label>
+              <select id="projVert">
+                <option value="">Select vertical…</option>
+                <option value="health">Healthcare</option>
+                <option value="gov">Gov't</option>
+                <option value="edu">Higher Ed</option>
+                <option value="k12">K-12</option>
+                <option value="corp">Corporate</option>
+              </select>
+              <span class="err" id="errVert">Vertical is required</span>
+            </div>
+            <div class="field">
+              <label>Est. project value</label>
+              <input type="text" id="projVal" placeholder="e.g. $2.4M" />
+            </div>
+            <div class="field">
+              <label>GC / owner</label>
+              <input type="text" id="projGC" placeholder="General contractor or owner" />
+            </div>
+            <div class="field">
+              <label>BuildingConnected ID</label>
+              <input type="text" id="projBC" placeholder="BC project ID" />
+            </div>
+          </div>
+
+          <hr class="divider" />
+          <p class="section-label">Stage</p>
+          <div class="stage-row" id="stageRow">
+            <button class="stage-btn" data-stage="hot">Act now</button>
+            <button class="stage-btn" data-stage="warm">Warm lead</button>
+            <button class="stage-btn" data-stage="watch">Watch</button>
+            <button class="stage-btn" data-stage="bid">Out to bid</button>
+          </div>
+
+          <p class="section-label" style="margin-top:14px;">Market tier</p>
+          <div class="tier-row" id="tierRow">
+            <button class="tier-btn" data-tier="1">Tier 1</button>
+            <button class="tier-btn" data-tier="2">Tier 2</button>
+          </div>
+
+          <hr class="divider" />
+          <p class="section-label">Products needed</p>
+          <div class="product-grid" id="productGrid">
+            <label class="prod-check"><input type="checkbox" value="Furniture" /> <span>Furniture</span></label>
+            <label class="prod-check"><input type="checkbox" value="Glass fronts" /> <span>Glass fronts</span></label>
+            <label class="prod-check"><input type="checkbox" value="Prefab walls" /> <span>Prefab walls</span></label>
+            <label class="prod-check"><input type="checkbox" value="Casework" /> <span>Casework</span></label>
+            <label class="prod-check"><input type="checkbox" value="Headwalls" /> <span>Headwalls</span></label>
+            <label class="prod-check"><input type="checkbox" value="Interior design" /> <span>Interior design</span></label>
+          </div>
+
+          <div class="field full" style="margin-top:14px;">
+            <label>Notes</label>
+            <textarea id="projNotes" placeholder="Source, contacts, competition, anything worth tracking…"></textarea>
+          </div>
+
+          <div id="addSuccess" class="success-banner" style="display:none;">
+            <i class="ti ti-circle-check"></i>
+            <span id="addSuccessMsg">Project added.</span>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn-primary" id="btnSubmitProject">Add to pipeline</button>
+            <button class="btn-outline" id="btnResetForm">Clear</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- IMPORT VIEW -->
+      <section class="view" id="view-import">
+        <div class="view-header">
+          <div>
+            <h1>Import from BuildingConnected</h1>
+            <p class="view-sub">Upload a Bid Board Pro CSV export and map columns to your pipeline</p>
+          </div>
+        </div>
+
+        <div class="progress-steps" id="importSteps">
+          <div class="pstep active" id="ps1">1. Upload</div>
+          <div class="pstep" id="ps2">2. Map columns</div>
+          <div class="pstep" id="ps3">3. Preview</div>
+          <div class="pstep" id="ps4">4. Done</div>
+        </div>
+
+        <div class="import-step active" id="istep1">
+          <div class="card">
+            <div class="drop-zone" id="dropZone">
+              <i class="ti ti-file-spreadsheet"></i>
+              <p class="drop-title">Drop your CSV here or click to browse</p>
+              <p class="drop-sub">BuildingConnected Bid Board export · Any CSV format accepted</p>
+              <input type="file" id="fileInput" accept=".csv" />
+            </div>
+            <div id="fileInfo" class="file-info" style="display:none;"></div>
+          </div>
+          <div class="warn-box">
+            <i class="ti ti-info-circle"></i>
+            In BuildingConnected Bid Board Pro: go to <strong>Reports</strong> → select your report → click the export arrow → <strong>Export to Excel/CSV</strong>.
+          </div>
+        </div>
+
+        <div class="import-step" id="istep2">
+          <div class="card">
+            <p class="section-label">Map your columns</p>
+            <p class="map-hint">Match your BC export columns to pipeline fields. <span class="req">*</span> = required.</p>
+            <div id="mappingRows"></div>
+          </div>
+          <div style="display:flex;gap:8px;">
+            <button class="btn-primary" id="btnPreview">Preview import</button>
+            <button class="btn-outline" onclick="goImportStep(1)">Back</button>
+          </div>
+        </div>
+
+        <div class="import-step" id="istep3">
+          <div class="card">
+            <p class="section-label">Preview — first 5 rows</p>
+            <div class="table-scroll" id="previewTable"></div>
+          </div>
+          <div style="display:flex;gap:8px;">
+            <button class="btn-primary" id="btnDoImport">Import all rows</button>
+            <button class="btn-outline" onclick="goImportStep(2)">Back</button>
+          </div>
+        </div>
+
+        <div class="import-step" id="istep4">
+          <div class="success-banner" id="importSuccess" style="display:none;">
+            <i class="ti ti-circle-check"></i>
+            <span id="importMsg"></span>
+          </div>
+          <div class="card">
+            <p class="section-label">Imported projects</p>
+            <div id="importedList" class="proj-list"></div>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:12px;">
+            <button class="btn-primary" onclick="showView('dashboard')">View dashboard</button>
+            <button class="btn-outline" onclick="resetImporter()">Import another file</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
