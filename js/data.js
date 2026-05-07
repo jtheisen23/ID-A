@@ -6,14 +6,14 @@ const STAGE_LABELS = { hot:'Act now', warm:'Warm lead', watch:'Watch', bid:'Out 
 const STAGE_CLASS  = { hot:'pill-hot', warm:'pill-warm', watch:'pill-watch', bid:'pill-bid' };
 
 const MARKETS = [
-  { key:'Louisville',    tier:1, lat:195, lng:195 },
-  { key:'Lexington',     tier:1, lat:390, lng:185 },
-  { key:'N. Kentucky',   tier:1, lat:310, lng:115 },
-  { key:'Frankfort',     tier:null, lat:345, lng:165 },
-  { key:'Georgetown',    tier:2, lat:420, lng:148 },
-  { key:'Elizabethtown', tier:2, lat:230, lng:225 },
-  { key:'Bowling Green', tier:2, lat:270, lng:265 },
-  { key:'Other KY',      tier:null, lat:480, lng:160 },
+  { key:'Louisville',    tier:1,    x:202, y:205 },
+  { key:'Lexington',     tier:1,    x:400, y:195 },
+  { key:'N. Kentucky',   tier:1,    x:318, y:122 },
+  { key:'Frankfort',     tier:null, x:352, y:172 },
+  { key:'Georgetown',    tier:2,    x:432, y:155 },
+  { key:'Elizabethtown', tier:2,    x:235, y:232 },
+  { key:'Bowling Green', tier:2,    x:268, y:272 },
+  { key:'Other KY',      tier:null, x:500, y:170 },
 ];
 
 const SOURCES = [

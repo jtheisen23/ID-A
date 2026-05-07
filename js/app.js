@@ -77,8 +77,8 @@ let mapPanY = 0;
 let mapDragging = false;
 let mapDragStart = { x: 0, y: 0 };
 let mapPanStart = { x: 0, y: 0 };
-const MAP_ZOOM_MIN = 0.8;
-const MAP_ZOOM_MAX = 5;
+const MAP_ZOOM_MIN = 0.4;
+const MAP_ZOOM_MAX = 6;
 
 function renderMap(filter) {
   const filtered = filter === 'all' ? projects : projects.filter(p => p.vertical === filter);
@@ -90,28 +90,84 @@ function renderMap(filter) {
   const bubbles = MARKETS.map(m => {
     const c = counts[m.key] || 0;
     if (c === 0) return '';
-    const r = Math.max(8, Math.round(10 + (c / maxCount) * 28));
+    const r = Math.max(8, Math.round(10 + (c / maxCount) * 24));
     const color = m.tier === 1 ? '#185FA5' : m.tier === 2 ? '#EF9F27' : '#1D9E75';
-    const labelY = m.lat + r + 14;
+    const labelY = m.y + r + 15;
     return `
-      <circle cx="${m.lng}" cy="${m.lat}" r="${r + 12}" fill="${color}" opacity="0.12"/>
-      <circle cx="${m.lng}" cy="${m.lat}" r="${r + 4}" fill="${color}" opacity="0.22"/>
-      <circle cx="${m.lng}" cy="${m.lat}" r="${r}" fill="${color}" opacity="0.85"/>
-      <text x="${m.lng}" y="${labelY}" text-anchor="middle" font-size="11" font-weight="500" fill="#1a1917">${m.key}</text>
-      <text x="${m.lng}" y="${labelY + 12}" text-anchor="middle" font-size="10" fill="#6b6a67">${c} project${c !== 1 ? 's' : ''}</text>
+      <circle cx="${m.x}" cy="${m.y}" r="${r + 12}" fill="${color}" opacity="0.12"/>
+      <circle cx="${m.x}" cy="${m.y}" r="${r + 4}" fill="${color}" opacity="0.22"/>
+      <circle cx="${m.x}" cy="${m.y}" r="${r}" fill="${color}" opacity="0.85"/>
+      <text x="${m.x}" y="${labelY}" text-anchor="middle" font-size="12" font-weight="500" fill="#1a1917">${m.key}</text>
+      <text x="${m.x}" y="${labelY + 14}" text-anchor="middle" font-size="10" fill="#6b6a67">${c} project${c !== 1 ? 's' : ''}</text>
     `;
   }).join('');
 
+  // Full regional map with neighboring states
   const mapSVG = `
-    <svg id="mapSVG" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;cursor:grab;">
+    <svg id="mapSVG" viewBox="-120 -60 960 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;cursor:grab;">
       <g id="mapGroup">
-        <path d="M60,100 L640,90 L650,130 L620,160 L600,170 L570,165 L540,175 L520,220 L500,240 L480,245 L460,240 L440,250 L420,260 L400,255 L380,265 L340,270 L300,260 L260,265 L220,255 L190,260 L160,250 L130,240 L100,235 L70,220 L55,200 L50,160 L60,100Z"
-          fill="#f3f2ef" stroke="rgba(0,0,0,0.15)" stroke-width="1.5"/>
+        <!-- Background -->
+        <rect x="-120" y="-60" width="960" height="560" fill="#e8edf2" rx="4"/>
+
+        <!-- Tennessee (south of KY) -->
+        <path d="M 55,285 L 340,295 L 505,260 L 620,272 L 660,258 L 660,340 L 580,345 L 500,348 L 400,350 L 300,348 L 200,345 L 100,342 L 55,340 Z"
+          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
+        <text x="350" y="330" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Tennessee</text>
+
+        <!-- Indiana (north of KY left) -->
+        <path d="M 40,105 L 200,95 L 210,30 L 180,10 L 150,0 L 100,5 L 60,20 L 40,50 L 35,80 Z"
+          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
+        <text x="130" y="58" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Indiana</text>
+
+        <!-- Ohio (north of KY right) -->
+        <path d="M 200,95 L 440,90 L 500,85 L 530,70 L 520,20 L 460,10 L 380,5 L 300,8 L 240,15 L 210,30 Z"
+          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
+        <text x="370" y="52" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Ohio</text>
+
+        <!-- West Virginia (northeast) -->
+        <path d="M 500,85 L 530,70 L 580,60 L 640,55 L 700,65 L 720,90 L 700,120 L 665,115 L 650,100 L 600,95 L 530,88 Z"
+          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
+        <text x="625" y="82" text-anchor="middle" font-size="11" fill="#8a9aaa" font-weight="500">W. Virginia</text>
+
+        <!-- Virginia (east) -->
+        <path d="M 665,115 L 700,120 L 760,130 L 800,150 L 820,180 L 800,220 L 760,240 L 720,250 L 680,245 L 660,230 L 650,200 L 660,165 L 660,135 Z"
+          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
+        <text x="740" y="185" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Virginia</text>
+
+        <!-- Missouri (northwest) -->
+        <path d="M -80,105 L 40,105 L 40,200 L 44,220 L 30,240 L -10,250 L -60,245 L -90,220 L -100,180 L -95,140 L -80,105 Z"
+          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
+        <text x="-35" y="178" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Missouri</text>
+
+        <!-- Illinois (northwest above MO) -->
+        <path d="M -80,105 L -95,60 L -80,20 L -50,0 L -10,0 L 20,20 L 40,50 L 40,105 Z"
+          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
+        <text x="-28" y="55" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Illinois</text>
+
+        <!-- Kentucky (main state) -->
+        <path d="
+          M 40,105 L 200,95 L 440,90 L 530,88 L 600,95 L 650,100 L 665,115
+          L 660,135 L 650,150 L 630,160 L 610,165 L 590,168 L 570,165 L 550,172
+          L 535,182 L 525,198 L 520,215 L 514,230 L 505,244 L 492,254 L 478,260
+          L 462,257 L 448,264 L 432,272 L 416,270 L 400,277 L 382,280 L 362,284
+          L 340,288 L 318,283 L 296,284 L 272,282 L 250,280 L 228,274 L 208,277
+          L 188,274 L 168,267 L 148,260 L 128,254 L 108,250 L 88,244 L 70,234
+          L 55,220 L 44,204 L 40,185 L 40,165 L 40,145 L 40,125 L 40,105Z"
+          fill="#f3f2ef" stroke="rgba(0,0,0,0.22)" stroke-width="2"/>
+
+        <!-- I-65 corridor dashed line -->
+        <line x1="202" y1="207" x2="235" y2="234" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
+        <line x1="235" y1="234" x2="268" y2="274" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
+        <text x="212" y="228" font-size="9" fill="#854F0B" opacity="0.8" transform="rotate(-32,212,228)">I-65</text>
+
+        <!-- Compass rose -->
+        <text x="760" y="115" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="600">N</text>
+        <line x1="760" y1="120" x2="760" y2="140" stroke="#8a9aaa" stroke-width="1.5"/>
+        <text x="760" y="158" text-anchor="middle" font-size="11" fill="#b0bec5">S</text>
+        <text x="740" y="140" text-anchor="middle" font-size="11" fill="#b0bec5">W</text>
+        <text x="780" y="140" text-anchor="middle" font-size="11" fill="#b0bec5">E</text>
+
         ${bubbles}
-        <text x="620" y="108" font-size="11" fill="#a09f9c">N↑</text>
-        <line x1="195" y1="195" x2="230" y2="225" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
-        <line x1="230" y1="225" x2="270" y2="265" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
-        <text x="200" y="215" font-size="9" fill="#854F0B" opacity="0.7" transform="rotate(-30,200,215)">I-65 corridor</text>
       </g>
     </svg>
     <div style="position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px;">
