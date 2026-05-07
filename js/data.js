@@ -6,14 +6,14 @@ const STAGE_LABELS = { hot:'Act now', warm:'Warm lead', watch:'Watch', bid:'Out 
 const STAGE_CLASS  = { hot:'pill-hot', warm:'pill-warm', watch:'pill-watch', bid:'pill-bid' };
 
 const MARKETS = [
-  { key:'Louisville',    tier:1,    x:202, y:205 },
-  { key:'Lexington',     tier:1,    x:400, y:195 },
-  { key:'N. Kentucky',   tier:1,    x:318, y:122 },
-  { key:'Frankfort',     tier:null, x:352, y:172 },
-  { key:'Georgetown',    tier:2,    x:432, y:155 },
-  { key:'Elizabethtown', tier:2,    x:235, y:232 },
-  { key:'Bowling Green', tier:2,    x:268, y:272 },
-  { key:'Other KY',      tier:null, x:500, y:170 },
+  { key:'Louisville',    tier:1,    lat:38.2527, lng:-85.7585 },
+  { key:'Lexington',     tier:1,    lat:38.0406, lng:-84.5037 },
+  { key:'N. Kentucky',   tier:1,    lat:38.9784, lng:-84.6624 },
+  { key:'Frankfort',     tier:null, lat:38.2009, lng:-84.8733 },
+  { key:'Georgetown',    tier:2,    lat:38.2098, lng:-84.5583 },
+  { key:'Elizabethtown', tier:2,    lat:37.6970, lng:-85.8591 },
+  { key:'Bowling Green', tier:2,    lat:36.9685, lng:-86.4808 },
+  { key:'Other KY',      tier:null, lat:37.8393, lng:-84.2700 },
 ];
 
 const SOURCES = [

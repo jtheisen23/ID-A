@@ -70,237 +70,77 @@ function renderMetrics() {
   `;
 }
 
-// ── Map (zoomable / pannable) ───────────────────────────────────────────────
-let mapZoom = 1;
-let mapPanX = 0;
-let mapPanY = 0;
-let mapDragging = false;
-let mapDragStart = { x: 0, y: 0 };
-let mapPanStart = { x: 0, y: 0 };
-const MAP_ZOOM_MIN = 0.4;
-const MAP_ZOOM_MAX = 6;
+// ── Map (Leaflet) ───────────────────────────────────────────────────────────
+let leafletMap = null;
+let leafletMarkers = [];
 
 function renderMap(filter) {
   const filtered = filter === 'all' ? projects : projects.filter(p => p.vertical === filter);
   const counts = {};
   MARKETS.forEach(m => counts[m.key] = 0);
   filtered.forEach(p => { if (counts[p.market] !== undefined) counts[p.market]++; });
-
   const maxCount = Math.max(...Object.values(counts), 1);
-  const bubbles = MARKETS.map(m => {
+
+  // Init map once
+  if (!leafletMap) {
+    leafletMap = L.map('mapContainer', {
+      center: [37.6, -85.5],
+      zoom: 7,
+      zoomControl: true,
+    });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 18,
+    }).addTo(leafletMap);
+  }
+
+  // Clear old markers
+  leafletMarkers.forEach(m => leafletMap.removeLayer(m));
+  leafletMarkers = [];
+
+  // Add circle markers per market
+  MARKETS.forEach(m => {
     const c = counts[m.key] || 0;
-    if (c === 0) return '';
-    const r = Math.max(8, Math.round(10 + (c / maxCount) * 24));
+    if (c === 0) return;
     const color = m.tier === 1 ? '#185FA5' : m.tier === 2 ? '#EF9F27' : '#1D9E75';
-    const labelY = m.y + r + 15;
-    return `
-      <circle cx="${m.x}" cy="${m.y}" r="${r + 12}" fill="${color}" opacity="0.12"/>
-      <circle cx="${m.x}" cy="${m.y}" r="${r + 4}" fill="${color}" opacity="0.22"/>
-      <circle cx="${m.x}" cy="${m.y}" r="${r}" fill="${color}" opacity="0.85"/>
-      <text x="${m.x}" y="${labelY}" text-anchor="middle" font-size="12" font-weight="500" fill="#1a1917">${m.key}</text>
-      <text x="${m.x}" y="${labelY + 14}" text-anchor="middle" font-size="10" fill="#6b6a67">${c} project${c !== 1 ? 's' : ''}</text>
-    `;
-  }).join('');
+    const radius = Math.max(18000, 18000 + (c / maxCount) * 40000);
 
-  // Full regional map with neighboring states
-  const mapSVG = `
-    <svg id="mapSVG" viewBox="-120 -60 960 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;cursor:grab;">
-      <g id="mapGroup">
-        <!-- Background -->
-        <rect x="-120" y="-60" width="960" height="560" fill="#e8edf2" rx="4"/>
+    const circle = L.circle([m.lat, m.lng], {
+      color: color,
+      fillColor: color,
+      fillOpacity: 0.25,
+      weight: 2,
+      opacity: 0.8,
+      radius: radius,
+    }).addTo(leafletMap);
 
-        <!-- Tennessee (south of KY) -->
-        <path d="M 55,285 L 340,295 L 505,260 L 620,272 L 660,258 L 660,340 L 580,345 L 500,348 L 400,350 L 300,348 L 200,345 L 100,342 L 55,340 Z"
-          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
-        <text x="350" y="330" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Tennessee</text>
+    const tierLabel = m.tier === 1 ? 'Tier 1' : m.tier === 2 ? 'Tier 2' : 'State Capital';
+    const vertBreakdown = Object.keys(VERT_LABELS).map(v => {
+      const n = filtered.filter(p => p.market === m.key && p.vertical === v).length;
+      return n > 0 ? `<div style="display:flex;justify-content:space-between;gap:16px;"><span>${VERT_LABELS[v]}</span><strong>${n}</strong></div>` : '';
+    }).join('');
 
-        <!-- Indiana (north of KY left) -->
-        <path d="M 40,105 L 200,95 L 210,30 L 180,10 L 150,0 L 100,5 L 60,20 L 40,50 L 35,80 Z"
-          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
-        <text x="130" y="58" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Indiana</text>
+    circle.bindPopup(`
+      <div style="font-family:-apple-system,sans-serif;min-width:180px;">
+        <div style="font-weight:600;font-size:14px;margin-bottom:4px;">${m.key}</div>
+        <div style="font-size:11px;color:#6b6a67;margin-bottom:8px;">${tierLabel}</div>
+        <div style="font-size:13px;font-weight:500;margin-bottom:6px;">${c} project${c !== 1 ? 's' : ''}</div>
+        <div style="font-size:12px;color:#444;border-top:1px solid #eee;padding-top:6px;">${vertBreakdown}</div>
+      </div>
+    `);
 
-        <!-- Ohio (north of KY right) -->
-        <path d="M 200,95 L 440,90 L 500,85 L 530,70 L 520,20 L 460,10 L 380,5 L 300,8 L 240,15 L 210,30 Z"
-          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
-        <text x="370" y="52" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Ohio</text>
+    // Label marker
+    const label = L.marker([m.lat, m.lng], {
+      icon: L.divIcon({
+        className: '',
+        html: `<div style="font-family:-apple-system,sans-serif;font-size:11px;font-weight:600;color:#1a1917;white-space:nowrap;text-shadow:0 1px 2px #fff,0 -1px 2px #fff,1px 0 2px #fff,-1px 0 2px #fff;">${m.key}<br><span style="font-weight:400;color:#6b6a67;">${c} project${c !== 1 ? 's' : ''}</span></div>`,
+        iconAnchor: [-8, 0],
+      }),
+      interactive: false,
+    }).addTo(leafletMap);
 
-        <!-- West Virginia (northeast) -->
-        <path d="M 500,85 L 530,70 L 580,60 L 640,55 L 700,65 L 720,90 L 700,120 L 665,115 L 650,100 L 600,95 L 530,88 Z"
-          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
-        <text x="625" y="82" text-anchor="middle" font-size="11" fill="#8a9aaa" font-weight="500">W. Virginia</text>
-
-        <!-- Virginia (east) -->
-        <path d="M 665,115 L 700,120 L 760,130 L 800,150 L 820,180 L 800,220 L 760,240 L 720,250 L 680,245 L 660,230 L 650,200 L 660,165 L 660,135 Z"
-          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
-        <text x="740" y="185" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Virginia</text>
-
-        <!-- Missouri (northwest) -->
-        <path d="M -80,105 L 40,105 L 40,200 L 44,220 L 30,240 L -10,250 L -60,245 L -90,220 L -100,180 L -95,140 L -80,105 Z"
-          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
-        <text x="-35" y="178" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Missouri</text>
-
-        <!-- Illinois (northwest above MO) -->
-        <path d="M -80,105 L -95,60 L -80,20 L -50,0 L -10,0 L 20,20 L 40,50 L 40,105 Z"
-          fill="#dde3e8" stroke="#b8c4cc" stroke-width="1"/>
-        <text x="-28" y="55" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="500">Illinois</text>
-
-        <!-- Kentucky (main state) -->
-        <path d="
-          M 40,105 L 200,95 L 440,90 L 530,88 L 600,95 L 650,100 L 665,115
-          L 660,135 L 650,150 L 630,160 L 610,165 L 590,168 L 570,165 L 550,172
-          L 535,182 L 525,198 L 520,215 L 514,230 L 505,244 L 492,254 L 478,260
-          L 462,257 L 448,264 L 432,272 L 416,270 L 400,277 L 382,280 L 362,284
-          L 340,288 L 318,283 L 296,284 L 272,282 L 250,280 L 228,274 L 208,277
-          L 188,274 L 168,267 L 148,260 L 128,254 L 108,250 L 88,244 L 70,234
-          L 55,220 L 44,204 L 40,185 L 40,165 L 40,145 L 40,125 L 40,105Z"
-          fill="#f3f2ef" stroke="rgba(0,0,0,0.22)" stroke-width="2"/>
-
-        <!-- I-65 corridor dashed line -->
-        <line x1="202" y1="207" x2="235" y2="234" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
-        <line x1="235" y1="234" x2="268" y2="274" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
-        <text x="212" y="228" font-size="9" fill="#854F0B" opacity="0.8" transform="rotate(-32,212,228)">I-65</text>
-
-        <!-- Compass rose -->
-        <text x="760" y="115" text-anchor="middle" font-size="13" fill="#8a9aaa" font-weight="600">N</text>
-        <line x1="760" y1="120" x2="760" y2="140" stroke="#8a9aaa" stroke-width="1.5"/>
-        <text x="760" y="158" text-anchor="middle" font-size="11" fill="#b0bec5">S</text>
-        <text x="740" y="140" text-anchor="middle" font-size="11" fill="#b0bec5">W</text>
-        <text x="780" y="140" text-anchor="middle" font-size="11" fill="#b0bec5">E</text>
-
-        ${bubbles}
-      </g>
-    </svg>
-    <div style="position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px;">
-      <button onclick="mapZoomBy(0.3)" style="width:28px;height:28px;border-radius:6px;border:0.5px solid rgba(0,0,0,0.15);background:#fff;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);">+</button>
-      <button onclick="mapZoomBy(-0.3)" style="width:28px;height:28px;border-radius:6px;border:0.5px solid rgba(0,0,0,0.15);background:#fff;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);">−</button>
-      <button onclick="mapReset()" title="Reset view" style="width:28px;height:28px;border-radius:6px;border:0.5px solid rgba(0,0,0,0.15);background:#fff;font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);">⤢</button>
-    </div>
-  `;
-
-  const container = document.getElementById('mapContainer');
-  container.innerHTML = mapSVG;
-
-  applyMapTransform();
-  bindMapInteraction();
-}
-
-function applyMapTransform() {
-  const group = document.getElementById('mapGroup');
-  if (!group) return;
-  group.setAttribute('transform', `translate(${mapPanX}, ${mapPanY}) scale(${mapZoom})`);
-}
-
-function mapZoomBy(delta, cx, cy) {
-  const svg = document.getElementById('mapSVG');
-  if (!svg) return;
-  const rect = svg.getBoundingClientRect();
-  const originX = cx !== undefined ? cx : rect.width / 2;
-  const originY = cy !== undefined ? cy : rect.height / 2;
-
-  // Convert screen origin to SVG coords before zoom
-  const svgW = 680, svgH = 320;
-  const scaleX = svgW / rect.width;
-  const scaleY = svgH / rect.height;
-  const svgOriginX = originX * scaleX;
-  const svgOriginY = originY * scaleY;
-
-  const oldZoom = mapZoom;
-  mapZoom = Math.min(MAP_ZOOM_MAX, Math.max(MAP_ZOOM_MIN, mapZoom + delta));
-  const zoomRatio = mapZoom / oldZoom;
-
-  // Adjust pan so zoom centers on cursor
-  mapPanX = svgOriginX + (mapPanX - svgOriginX) * zoomRatio;
-  mapPanY = svgOriginY + (mapPanY - svgOriginY) * zoomRatio;
-
-  applyMapTransform();
-}
-
-function mapReset() {
-  mapZoom = 1; mapPanX = 0; mapPanY = 0;
-  applyMapTransform();
-}
-
-function bindMapInteraction() {
-  const svg = document.getElementById('mapSVG');
-  if (!svg) return;
-
-  // Mouse wheel zoom
-  svg.addEventListener('wheel', e => {
-    e.preventDefault();
-    const rect = svg.getBoundingClientRect();
-    const cx = e.clientX - rect.left;
-    const cy = e.clientY - rect.top;
-    mapZoomBy(e.deltaY < 0 ? 0.2 : -0.2, cx, cy);
-  }, { passive: false });
-
-  // Mouse drag pan
-  svg.addEventListener('mousedown', e => {
-    mapDragging = true;
-    mapDragStart = { x: e.clientX, y: e.clientY };
-    mapPanStart = { x: mapPanX, y: mapPanY };
-    svg.style.cursor = 'grabbing';
+    leafletMarkers.push(circle, label);
   });
-  window.addEventListener('mousemove', e => {
-    if (!mapDragging) return;
-    const svgEl = document.getElementById('mapSVG');
-    if (!svgEl) return;
-    const rect = svgEl.getBoundingClientRect();
-    const scaleX = 680 / rect.width;
-    const scaleY = 320 / rect.height;
-    mapPanX = mapPanStart.x + (e.clientX - mapDragStart.x) * scaleX;
-    mapPanY = mapPanStart.y + (e.clientY - mapDragStart.y) * scaleY;
-    applyMapTransform();
-  });
-  window.addEventListener('mouseup', () => {
-    mapDragging = false;
-    const svgEl = document.getElementById('mapSVG');
-    if (svgEl) svgEl.style.cursor = 'grab';
-  });
-
-  // Touch pinch & pan
-  let lastTouchDist = null;
-  let lastTouchMid = null;
-  svg.addEventListener('touchstart', e => {
-    if (e.touches.length === 2) {
-      const dx = e.touches[0].clientX - e.touches[1].clientX;
-      const dy = e.touches[0].clientY - e.touches[1].clientY;
-      lastTouchDist = Math.sqrt(dx*dx + dy*dy);
-      lastTouchMid = {
-        x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
-        y: (e.touches[0].clientY + e.touches[1].clientY) / 2
-      };
-    } else if (e.touches.length === 1) {
-      mapDragStart = { x: e.touches[0].clientX, y: e.touches[0].clientY };
-      mapPanStart = { x: mapPanX, y: mapPanY };
-    }
-  }, { passive: true });
-  svg.addEventListener('touchmove', e => {
-    e.preventDefault();
-    if (e.touches.length === 2) {
-      const dx = e.touches[0].clientX - e.touches[1].clientX;
-      const dy = e.touches[0].clientY - e.touches[1].clientY;
-      const dist = Math.sqrt(dx*dx + dy*dy);
-      if (lastTouchDist) {
-        const rect = svg.getBoundingClientRect();
-        const mid = {
-          x: (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left,
-          y: (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top
-        };
-        mapZoomBy((dist - lastTouchDist) * 0.01, mid.x, mid.y);
-      }
-      lastTouchDist = dist;
-    } else if (e.touches.length === 1) {
-      const svgEl = document.getElementById('mapSVG');
-      if (!svgEl) return;
-      const rect = svgEl.getBoundingClientRect();
-      const scaleX = 680 / rect.width;
-      const scaleY = 320 / rect.height;
-      mapPanX = mapPanStart.x + (e.touches[0].clientX - mapDragStart.x) * scaleX;
-      mapPanY = mapPanStart.y + (e.touches[0].clientY - mapDragStart.y) * scaleY;
-      applyMapTransform();
-    }
-  }, { passive: false });
-  svg.addEventListener('touchend', () => { lastTouchDist = null; });
 }
 
 // ── Charts ─────────────────────────────────────────────────────────────────
