@@ -178,6 +178,7 @@ body {
 }
 
 /* ── Map ── */
+#mapContainer { position: relative; overflow: hidden; border-radius: var(--radius); }
 #mapContainer svg { width: 100%; display: block; }
 .map-legend {
   display: flex;

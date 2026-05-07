@@ -70,7 +70,16 @@ function renderMetrics() {
   `;
 }
 
-// ── Map ────────────────────────────────────────────────────────────────────
+// ── Map (zoomable / pannable) ───────────────────────────────────────────────
+let mapZoom = 1;
+let mapPanX = 0;
+let mapPanY = 0;
+let mapDragging = false;
+let mapDragStart = { x: 0, y: 0 };
+let mapPanStart = { x: 0, y: 0 };
+const MAP_ZOOM_MIN = 0.8;
+const MAP_ZOOM_MAX = 5;
+
 function renderMap(filter) {
   const filtered = filter === 'all' ? projects : projects.filter(p => p.vertical === filter);
   const counts = {};
@@ -93,17 +102,149 @@ function renderMap(filter) {
     `;
   }).join('');
 
-  document.getElementById('mapContainer').innerHTML = `
-    <svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
-      <path d="M60,100 L640,90 L650,130 L620,160 L600,170 L570,165 L540,175 L520,220 L500,240 L480,245 L460,240 L440,250 L420,260 L400,255 L380,265 L340,270 L300,260 L260,265 L220,255 L190,260 L160,250 L130,240 L100,235 L70,220 L55,200 L50,160 L60,100Z"
-        fill="#f3f2ef" stroke="rgba(0,0,0,0.15)" stroke-width="1.5"/>
-      ${bubbles}
-      <text x="620" y="108" font-size="11" fill="#a09f9c">N↑</text>
-      <line x1="195" y1="195" x2="230" y2="225" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
-      <line x1="230" y1="225" x2="270" y2="265" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
-      <text x="200" y="215" font-size="9" fill="#854F0B" opacity="0.7" transform="rotate(-30,200,215)">I-65 corridor</text>
+  const mapSVG = `
+    <svg id="mapSVG" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;cursor:grab;">
+      <g id="mapGroup">
+        <path d="M60,100 L640,90 L650,130 L620,160 L600,170 L570,165 L540,175 L520,220 L500,240 L480,245 L460,240 L440,250 L420,260 L400,255 L380,265 L340,270 L300,260 L260,265 L220,255 L190,260 L160,250 L130,240 L100,235 L70,220 L55,200 L50,160 L60,100Z"
+          fill="#f3f2ef" stroke="rgba(0,0,0,0.15)" stroke-width="1.5"/>
+        ${bubbles}
+        <text x="620" y="108" font-size="11" fill="#a09f9c">N↑</text>
+        <line x1="195" y1="195" x2="230" y2="225" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+        <line x1="230" y1="225" x2="270" y2="265" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+        <text x="200" y="215" font-size="9" fill="#854F0B" opacity="0.7" transform="rotate(-30,200,215)">I-65 corridor</text>
+      </g>
     </svg>
+    <div style="position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px;">
+      <button onclick="mapZoomBy(0.3)" style="width:28px;height:28px;border-radius:6px;border:0.5px solid rgba(0,0,0,0.15);background:#fff;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);">+</button>
+      <button onclick="mapZoomBy(-0.3)" style="width:28px;height:28px;border-radius:6px;border:0.5px solid rgba(0,0,0,0.15);background:#fff;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);">−</button>
+      <button onclick="mapReset()" title="Reset view" style="width:28px;height:28px;border-radius:6px;border:0.5px solid rgba(0,0,0,0.15);background:#fff;font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);">⤢</button>
+    </div>
   `;
+
+  const container = document.getElementById('mapContainer');
+  container.innerHTML = mapSVG;
+
+  applyMapTransform();
+  bindMapInteraction();
+}
+
+function applyMapTransform() {
+  const group = document.getElementById('mapGroup');
+  if (!group) return;
+  group.setAttribute('transform', `translate(${mapPanX}, ${mapPanY}) scale(${mapZoom})`);
+}
+
+function mapZoomBy(delta, cx, cy) {
+  const svg = document.getElementById('mapSVG');
+  if (!svg) return;
+  const rect = svg.getBoundingClientRect();
+  const originX = cx !== undefined ? cx : rect.width / 2;
+  const originY = cy !== undefined ? cy : rect.height / 2;
+
+  // Convert screen origin to SVG coords before zoom
+  const svgW = 680, svgH = 320;
+  const scaleX = svgW / rect.width;
+  const scaleY = svgH / rect.height;
+  const svgOriginX = originX * scaleX;
+  const svgOriginY = originY * scaleY;
+
+  const oldZoom = mapZoom;
+  mapZoom = Math.min(MAP_ZOOM_MAX, Math.max(MAP_ZOOM_MIN, mapZoom + delta));
+  const zoomRatio = mapZoom / oldZoom;
+
+  // Adjust pan so zoom centers on cursor
+  mapPanX = svgOriginX + (mapPanX - svgOriginX) * zoomRatio;
+  mapPanY = svgOriginY + (mapPanY - svgOriginY) * zoomRatio;
+
+  applyMapTransform();
+}
+
+function mapReset() {
+  mapZoom = 1; mapPanX = 0; mapPanY = 0;
+  applyMapTransform();
+}
+
+function bindMapInteraction() {
+  const svg = document.getElementById('mapSVG');
+  if (!svg) return;
+
+  // Mouse wheel zoom
+  svg.addEventListener('wheel', e => {
+    e.preventDefault();
+    const rect = svg.getBoundingClientRect();
+    const cx = e.clientX - rect.left;
+    const cy = e.clientY - rect.top;
+    mapZoomBy(e.deltaY < 0 ? 0.2 : -0.2, cx, cy);
+  }, { passive: false });
+
+  // Mouse drag pan
+  svg.addEventListener('mousedown', e => {
+    mapDragging = true;
+    mapDragStart = { x: e.clientX, y: e.clientY };
+    mapPanStart = { x: mapPanX, y: mapPanY };
+    svg.style.cursor = 'grabbing';
+  });
+  window.addEventListener('mousemove', e => {
+    if (!mapDragging) return;
+    const svgEl = document.getElementById('mapSVG');
+    if (!svgEl) return;
+    const rect = svgEl.getBoundingClientRect();
+    const scaleX = 680 / rect.width;
+    const scaleY = 320 / rect.height;
+    mapPanX = mapPanStart.x + (e.clientX - mapDragStart.x) * scaleX;
+    mapPanY = mapPanStart.y + (e.clientY - mapDragStart.y) * scaleY;
+    applyMapTransform();
+  });
+  window.addEventListener('mouseup', () => {
+    mapDragging = false;
+    const svgEl = document.getElementById('mapSVG');
+    if (svgEl) svgEl.style.cursor = 'grab';
+  });
+
+  // Touch pinch & pan
+  let lastTouchDist = null;
+  let lastTouchMid = null;
+  svg.addEventListener('touchstart', e => {
+    if (e.touches.length === 2) {
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      lastTouchDist = Math.sqrt(dx*dx + dy*dy);
+      lastTouchMid = {
+        x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+        y: (e.touches[0].clientY + e.touches[1].clientY) / 2
+      };
+    } else if (e.touches.length === 1) {
+      mapDragStart = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      mapPanStart = { x: mapPanX, y: mapPanY };
+    }
+  }, { passive: true });
+  svg.addEventListener('touchmove', e => {
+    e.preventDefault();
+    if (e.touches.length === 2) {
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      const dist = Math.sqrt(dx*dx + dy*dy);
+      if (lastTouchDist) {
+        const rect = svg.getBoundingClientRect();
+        const mid = {
+          x: (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left,
+          y: (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top
+        };
+        mapZoomBy((dist - lastTouchDist) * 0.01, mid.x, mid.y);
+      }
+      lastTouchDist = dist;
+    } else if (e.touches.length === 1) {
+      const svgEl = document.getElementById('mapSVG');
+      if (!svgEl) return;
+      const rect = svgEl.getBoundingClientRect();
+      const scaleX = 680 / rect.width;
+      const scaleY = 320 / rect.height;
+      mapPanX = mapPanStart.x + (e.touches[0].clientX - mapDragStart.x) * scaleX;
+      mapPanY = mapPanStart.y + (e.touches[0].clientY - mapDragStart.y) * scaleY;
+      applyMapTransform();
+    }
+  }, { passive: false });
+  svg.addEventListener('touchend', () => { lastTouchDist = null; });
 }
 
 // ── Charts ─────────────────────────────────────────────────────────────────
