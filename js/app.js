@@ -629,71 +629,6 @@ function resetImporter() {
   goImportStep(1);
 }
 
-// ── Fetch Daily Bids (calls Cloudflare Worker proxy) ──────────────────────
-// Worker URL is set here — update after deploying the Cloudflare Worker
-const WORKER_URL = localStorage.getItem('ida_worker_url') || '';
-
-async function triggerFetch() {
-  const btn = document.getElementById('btnFetchBids');
-
-  // First-time setup: ask for worker URL
-  let workerUrl = localStorage.getItem('ida_worker_url');
-  if (!workerUrl) {
-    workerUrl = prompt(
-      'One-time setup: Enter your Cloudflare Worker URL.\n\n' +
-      'Example: https://ida-trigger.yourname.workers.dev/trigger\n\n' +
-      'See the README for setup instructions.'
-    );
-    if (!workerUrl) return;
-    localStorage.setItem('ida_worker_url', workerUrl.trim());
-    workerUrl = workerUrl.trim();
-  }
-
-  // Optional shared secret (set in Worker env as TRIGGER_SECRET)
-  const secret = localStorage.getItem('ida_trigger_secret') || '';
-
-  btn.disabled = true;
-  btn.innerHTML = '<i class="ti ti-loader-2" style="animation:spin 1s linear infinite;display:inline-block;"></i> Triggering…';
-
-  try {
-    const res = await fetch(workerUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ secret }),
-    });
-
-    const data = await res.json().catch(() => ({}));
-
-    if (res.ok && data.ok) {
-      btn.innerHTML = '<i class="ti ti-check"></i> Triggered!';
-      btn.style.background = '#1D9E75';
-      showFetchToast('✅ Fetch triggered — new bids will appear in ~2 minutes. Refreshing automatically…');
-      setTimeout(() => reloadAutoProjects(), 90000);
-      setTimeout(() => {
-        btn.disabled = false;
-        btn.innerHTML = '<i class="ti ti-refresh"></i> Fetch daily bids';
-        btn.style.background = '';
-      }, 15000);
-    } else if (res.status === 401) {
-      showFetchToast('❌ Trigger secret incorrect. Check your TRIGGER_SECRET in the Worker settings.', true);
-      resetFetchBtn(btn);
-    } else {
-      showFetchToast(`❌ Worker error: ${data.message || res.status}`, true);
-      resetFetchBtn(btn);
-    }
-  } catch (err) {
-    // Worker URL might be wrong
-    localStorage.removeItem('ida_worker_url');
-    showFetchToast(`❌ Could not reach Worker — URL cleared, please try again. (${err.message})`, true);
-    resetFetchBtn(btn);
-  }
-}
-
-function resetFetchBtn(btn) {
-  btn.disabled = false;
-  btn.innerHTML = '<i class="ti ti-refresh"></i> Fetch daily bids';
-  btn.style.background = '';
-}
 
 async function reloadAutoProjects() {
   try {
@@ -709,17 +644,6 @@ async function reloadAutoProjects() {
       renderAll();
     }
   } catch (e) { console.log('Reload error:', e); }
-}
-
-function showFetchToast(msg, isError) {
-  const banner = document.getElementById('fetchBanner');
-  if (!banner) return;
-  banner.style.display = 'flex';
-  banner.style.background = isError ? '#FCEBEB' : '#E1F5EE';
-  banner.style.borderColor = isError ? '#F09595' : '#9FE1CB';
-  banner.style.color = isError ? '#A32D2D' : '#085041';
-  banner.innerHTML = msg;
-  if (!isError) setTimeout(() => renderFetchBanner({ lastFetched: new Date().toISOString(), samCount: 0, count: projects.length }), 5000);
 }
 
 // ── Boot ───────────────────────────────────────────────────────────────────
