@@ -1,14 +1,33 @@
 // ── State ──────────────────────────────────────────────────────────────────
 let projects = [];
+let autoProjects = [];
 let activeStage = '';
 let activeTier = '';
 let mktChartInst = null;
 let vertChartInst = null;
 
 // ── Init ───────────────────────────────────────────────────────────────────
-function init() {
+async function init() {
   const stored = localStorage.getItem('ida_projects');
-  projects = stored ? JSON.parse(stored) : JSON.parse(JSON.stringify(SEED_PROJECTS));
+  const manual = stored ? JSON.parse(stored) : JSON.parse(JSON.stringify(SEED_PROJECTS));
+
+  // Load auto-fetched projects from daily GitHub Actions job
+  try {
+    const res = await fetch('data/auto-projects.json?v=' + Date.now());
+    if (res.ok) {
+      const data = await res.json();
+      autoProjects = data.projects || [];
+      renderFetchBanner(data);
+    }
+  } catch (e) {
+    console.log('No auto-projects loaded:', e.message);
+  }
+
+  // Merge: manual projects take priority, auto fills in anything new
+  const manualIds = new Set(manual.map(p => p.id));
+  const newAuto   = autoProjects.filter(p => !manualIds.has(p.id));
+  projects = [...manual, ...newAuto];
+
   renderAll();
   bindNav();
   bindForm();
@@ -19,9 +38,25 @@ function init() {
   bindExport();
 }
 
-function save() {
-  localStorage.setItem('ida_projects', JSON.stringify(projects));
+function renderFetchBanner(data) {
+  const banner = document.getElementById('fetchBanner');
+  if (!banner) return;
+  if (!data.lastFetched) { banner.style.display = 'none'; return; }
+  const date = new Date(data.lastFetched).toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  banner.style.display = 'flex';
+  banner.innerHTML = `
+    <i class="ti ti-refresh" style="font-size:14px;"></i>
+    <span>Last synced <strong>${date}</strong> · <strong>${data.samCount || 0}</strong> new bids from SAM.gov · <strong>${data.count || 0}</strong> total in pipeline</span>
+    <a href="data/fetch-log.json" target="_blank" style="margin-left:auto;font-size:11px;color:#0F6E56;text-decoration:none;">View log →</a>
+  `;
 }
+
+function save() {
+  // Only save manual projects to localStorage (auto ones reload from JSON)
+  const manual = projects.filter(p => p.source !== 'SAM.gov');
+  localStorage.setItem('ida_projects', JSON.stringify(manual));
+}
+
 
 // ── Navigation ─────────────────────────────────────────────────────────────
 function bindNav() {
@@ -187,13 +222,21 @@ function renderCharts(filter) {
 // ── Project list helpers ───────────────────────────────────────────────────
 function projRowHTML(p, withDelete) {
   const del = withDelete
-    ? `<button class="del-btn" onclick="deleteProject(${p.id})">remove</button>`
+    ? `<button class="del-btn" onclick="deleteProject('${p.id}')">remove</button>`
     : '';
+  const sourceBadge = p.source === 'SAM.gov'
+    ? `<span style="font-size:9px;padding:1px 5px;border-radius:3px;background:#E6F1FB;color:#185FA5;margin-left:4px;">SAM.gov</span>`
+    : p.source === 'BuildingConnected'
+    ? `<span style="font-size:9px;padding:1px 5px;border-radius:3px;background:#EAF3DE;color:#27500A;margin-left:4px;">BC</span>`
+    : '';
+  const nameEl = p.url
+    ? `<a href="${p.url}" target="_blank" rel="noopener" class="proj-name" style="color:inherit;text-decoration:none;" title="View on SAM.gov">${p.name}</a>`
+    : `<div class="proj-name">${p.name}</div>`;
   return `
     <div class="proj-row">
       <div class="proj-dot" style="background:${VERT_COLORS[p.vertical]};"></div>
       <div class="proj-info">
-        <div class="proj-name">${p.name}</div>
+        ${nameEl}${sourceBadge}
         <div class="proj-meta">
           ${p.market} &nbsp;·&nbsp;
           <span class="vert-tag ${VERT_CLASS[p.vertical]}">${VERT_LABELS[p.vertical]}</span>
