@@ -16,32 +16,21 @@ const fetch = (await import('node-fetch')).default;
 const SAM_API_KEY = process.env.SAM_API_KEY || '';
 const SAM_BASE    = 'https://api.sam.gov/prod/opportunities/v2/search';
 
-// NAICS codes relevant to our verticals
+// NAICS codes relevant to our verticals — combined into one query
 // 236220 = Commercial/Institutional Building Construction
-// 238390 = Other Building Finishing Contractors (casework, headwalls, etc)
-// 238990 = All Other Specialty Trade Contractors
+// 238390 = Other Building Finishing Contractors
 // 337127 = Institutional Furniture Manufacturing
-// 337211 = Wood Office Furniture Manufacturing
-// 541310 = Architectural Services (interior design)
-// 236210 = Industrial Building Construction
-const NAICS_CODES = ['236220','238390','238990','337127','337211','541310','236210'];
+// 541310 = Architectural Services
+const NAICS_CODES = ['236220','238390','337127','541310'];
 
-// Keywords to search in titles
+// Just a few high-value title searches to stay under 10 req/day limit
 const KEYWORD_SEARCHES = [
+  'renovation',
   'furniture',
   'interior',
-  'casework',
-  'renovation',
-  'construction',
   'healthcare facility',
-  'school renovation',
-  'office renovation',
-  'medical center',
-  'hospital',
-  'university',
-  'college',
-  'government building',
 ];
+
 
 // Kentucky markets we care about — used to score/tag results
 const MARKET_MAP = [
@@ -162,11 +151,18 @@ async function fetchSAM(params) {
 
   try {
     const res = await fetch(url, { headers: { Accept: 'application/json' } });
+    console.log(`  Response: ${res.status} ${res.statusText}`);
+    if (res.status === 429) {
+      console.error('  ⚠️  Rate limit hit (10 req/day max for public keys). Stopping further requests.');
+      return null; // signal to stop
+    }
     if (!res.ok) {
-      console.error(`  SAM.gov error: ${res.status} ${res.statusText}`);
+      const body = await res.text();
+      console.error(`  SAM.gov error: ${res.status} — ${body.slice(0, 200)}`);
       return [];
     }
     const data = await res.json();
+    console.log(`  Found: ${(data.opportunitiesData || []).length} opportunities`);
     return data.opportunitiesData || [];
   } catch (err) {
     console.error(`  Fetch error: ${err.message}`);
@@ -184,17 +180,18 @@ async function main() {
   for (const ncode of NAICS_CODES) {
     console.log(`  NAICS ${ncode}...`);
     const opps = await fetchSAM({ ncode });
+    if (opps === null) { console.log('  Stopping due to rate limit.'); break; }
     opps.forEach(o => allOpps.set(o.noticeId, o));
-    // Rate limit: ~2 req/sec
-    await new Promise(r => setTimeout(r, 600));
+    await new Promise(r => setTimeout(r, 1000));
   }
 
-  // Query 2: By keywords in title (catch things NAICS misses)
+  // Query 2: By keywords in title
   for (const title of KEYWORD_SEARCHES) {
     console.log(`  Keyword "${title}"...`);
     const opps = await fetchSAM({ title });
+    if (opps === null) { console.log('  Stopping due to rate limit.'); break; }
     opps.forEach(o => allOpps.set(o.noticeId, o));
-    await new Promise(r => setTimeout(r, 600));
+    await new Promise(r => setTimeout(r, 1000));
   }
 
   console.log(`\n📦 Total unique opportunities from SAM.gov: ${allOpps.size}`);
