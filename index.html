@@ -16,7 +16,7 @@
     <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar-logo">
-        <span class="logo-mark">ID</span><span class="logo-dash">—</span><span class="logo-a">A</span>
+        <img src="img/logo.png" alt="ID-A" style="width:48px;height:48px;object-fit:contain;display:block;" />
       </div>
       <nav class="sidebar-nav">
         <a href="#" class="nav-item active" data-view="dashboard">
@@ -50,6 +50,9 @@
           <div class="header-actions">
             <button class="btn-outline" id="btnExportDash">
               <i class="ti ti-download"></i> Export CSV
+            </button>
+            <button class="btn-primary" id="btnFetchBids" onclick="triggerFetch()">
+              <i class="ti ti-refresh"></i> Fetch daily bids
             </button>
           </div>
         </div>
