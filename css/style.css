@@ -52,11 +52,14 @@ body {
 }
 
 .sidebar-logo {
-  padding: 14px 16px;
+  height: 120px;
   border-bottom: 0.5px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  background: #ffffff;
+  flex-shrink: 0;
 }
 
 .sidebar-nav { padding: 12px 10px; flex: 1; }
