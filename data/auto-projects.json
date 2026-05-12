@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-05-11T10:51:17.188Z",
-  "count": 17,
-  "samCount": 17,
+  "lastFetched": "2026-05-12T10:21:10.451Z",
+  "count": 18,
+  "samCount": 18,
   "projects": [
     {
       "id": "sam-f656ad5eae0d41c8bdec59163e864834",
@@ -81,6 +81,22 @@
       "added": "Apr 17, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/a61c4ee1e5204c3ea03dec6d7e1dde47/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-8fbde792d07d413ca939ccb225046245",
+      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: May 18, 2026 · Solicitation: W912QR26RA035",
+      "products": [],
+      "added": "Apr 17, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/8fbde792d07d413ca939ccb225046245/view",
       "bc": ""
     },
     {
@@ -196,6 +212,22 @@
       "bc": ""
     },
     {
+      "id": "sam-a7bef9b411784a6983e42f4adb0cd1de",
+      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
+      "products": [],
+      "added": "Apr 30, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/a7bef9b411784a6983e42f4adb0cd1de/view",
+      "bc": ""
+    },
+    {
       "id": "sam-21ed5c80f21e4f3fb2273baa7b1d3fb1",
       "name": "DB DSCC Bridge Replacements Project",
       "market": "Louisville",
@@ -212,19 +244,19 @@
       "bc": ""
     },
     {
-      "id": "sam-8fbde792d07d413ca939ccb225046245",
-      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
+      "id": "sam-9e9a69b50806421fa0a451dd7140d894",
+      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: May 18, 2026 · Solicitation: W912QR26RA035",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 10, 2026 · Solicitation: W912QR26RA055",
       "products": [],
-      "added": "Apr 17, 2026",
+      "added": "May 11, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/8fbde792d07d413ca939ccb225046245/view",
+      "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
       "bc": ""
     },
     {
@@ -241,22 +273,6 @@
       "added": "May 8, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/31bb43108fe94f318dd56a05912f09bd/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-a7bef9b411784a6983e42f4adb0cd1de",
-      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
-      "products": [],
-      "added": "Apr 30, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/a7bef9b411784a6983e42f4adb0cd1de/view",
       "bc": ""
     },
     {
