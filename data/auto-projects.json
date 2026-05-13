@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-05-12T10:21:10.451Z",
-  "count": 18,
-  "samCount": 18,
+  "lastFetched": "2026-05-13T10:11:20.453Z",
+  "count": 19,
+  "samCount": 19,
   "projects": [
+    {
+      "id": "sam-89cceb4961014d6fa99b4ff679658a7c",
+      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: May 18, 2026 · Solicitation: W912QR26RA035",
+      "products": [],
+      "added": "May 12, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/89cceb4961014d6fa99b4ff679658a7c/view",
+      "bc": ""
+    },
     {
       "id": "sam-f656ad5eae0d41c8bdec59163e864834",
       "name": "FTC DB2B Fire Station",
@@ -84,22 +100,6 @@
       "bc": ""
     },
     {
-      "id": "sam-8fbde792d07d413ca939ccb225046245",
-      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: May 18, 2026 · Solicitation: W912QR26RA035",
-      "products": [],
-      "added": "Apr 17, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/8fbde792d07d413ca939ccb225046245/view",
-      "bc": ""
-    },
-    {
       "id": "sam-6cec3435fda84274966c122254eca587",
       "name": "Aircraft Arresting System (AAS) and Re-Striping Homestead, ARB",
       "market": "Louisville",
@@ -113,6 +113,54 @@
       "added": "Apr 14, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/6cec3435fda84274966c122254eca587/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-6ebc27a1b94a4deca328c00b545c9143",
+      "name": "Design-Bid-Build AES facility located at Joint Base Charleston, South Carolina",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Presolicitation · Due: May 27, 2026 · Solicitation: W912QR26BA019",
+      "products": [],
+      "added": "May 12, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/6ebc27a1b94a4deca328c00b545c9143/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-2ccc046cc5ee448a92fa14e2217b2a9c",
+      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
+      "products": [],
+      "added": "May 12, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/2ccc046cc5ee448a92fa14e2217b2a9c/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-0e1e9b6490bd4d5dabea5ff503e50c21",
+      "name": "Construction of UEPH Barracks at Fort Campbell KY",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR26RA016",
+      "products": [],
+      "added": "May 12, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/0e1e9b6490bd4d5dabea5ff503e50c21/view",
       "bc": ""
     },
     {
@@ -180,22 +228,6 @@
       "bc": ""
     },
     {
-      "id": "sam-b9e2ef2cb1de4834907c236468a43dcf",
-      "name": "Construction of UEPH Barracks at Fort Campbell KY",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR26RA016",
-      "products": [],
-      "added": "May 5, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/b9e2ef2cb1de4834907c236468a43dcf/view",
-      "bc": ""
-    },
-    {
       "id": "sam-66a9f2bf50dd4eff80414eec37670b38",
       "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
       "market": "Louisville",
@@ -209,22 +241,6 @@
       "added": "May 5, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/66a9f2bf50dd4eff80414eec37670b38/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-a7bef9b411784a6983e42f4adb0cd1de",
-      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
-      "products": [],
-      "added": "Apr 30, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/a7bef9b411784a6983e42f4adb0cd1de/view",
       "bc": ""
     },
     {
