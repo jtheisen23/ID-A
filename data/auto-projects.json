@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-05-14T10:03:20.402Z",
-  "count": 19,
-  "samCount": 19,
+  "lastFetched": "2026-05-15T10:10:44.392Z",
+  "count": 18,
+  "samCount": 18,
   "projects": [
     {
       "id": "sam-89cceb4961014d6fa99b4ff679658a7c",
@@ -113,22 +113,6 @@
       "added": "Apr 17, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/a61c4ee1e5204c3ea03dec6d7e1dde47/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-6cec3435fda84274966c122254eca587",
-      "name": "Aircraft Arresting System (AAS) and Re-Striping Homestead, ARB",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: Apr 29, 2026 · Solicitation: W912QR25RA054",
-      "products": [],
-      "added": "Apr 14, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/6cec3435fda84274966c122254eca587/view",
       "bc": ""
     },
     {
@@ -260,6 +244,22 @@
       "bc": ""
     },
     {
+      "id": "sam-624281aaaad14996a19bbe5c18079836",
+      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA008",
+      "products": [],
+      "added": "May 14, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/624281aaaad14996a19bbe5c18079836/view",
+      "bc": ""
+    },
+    {
       "id": "sam-9e9a69b50806421fa0a451dd7140d894",
       "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
       "market": "Louisville",
@@ -289,22 +289,6 @@
       "added": "May 8, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/31bb43108fe94f318dd56a05912f09bd/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-31498a514b874169ba00ea494a1da178",
-      "name": "Staging/Marshalling Area at Fort Campbell DB2B",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "watch",
-      "notes": "Type: Presolicitation · Solicitation: W912QR-60893604",
-      "products": [],
-      "added": "Apr 14, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/31498a514b874169ba00ea494a1da178/view",
       "bc": ""
     }
   ]
