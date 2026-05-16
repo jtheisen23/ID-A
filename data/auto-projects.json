@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-05-15T10:10:44.392Z",
+  "lastFetched": "2026-05-16T09:18:35.664Z",
   "count": 18,
   "samCount": 18,
   "projects": [
@@ -17,6 +17,38 @@
       "added": "May 12, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/89cceb4961014d6fa99b4ff679658a7c/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-aa275c98bc8b4435a382500e4ed9638b",
+      "name": "Renovation of Bldg 27 at DSCC, OH",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Presolicitation · Due: May 22, 2026 · Solicitation: W912QR26BA013",
+      "products": [],
+      "added": "May 7, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/aa275c98bc8b4435a382500e4ed9638b/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-57649f63e4144bb2b3d55b7989cedca8",
+      "name": "Construction of Small Arms Ammunition Magazine, Blue Grass Army Depot, Richmond, Kentucky",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: May 22, 2026 · Solicitation: W912QR26RA049",
+      "products": [],
+      "added": "May 7, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/57649f63e4144bb2b3d55b7989cedca8/view",
       "bc": ""
     },
     {
@@ -164,38 +196,6 @@
       "bc": ""
     },
     {
-      "id": "sam-aa275c98bc8b4435a382500e4ed9638b",
-      "name": "Renovation of Bldg 27 at DSCC, OH",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Presolicitation · Due: May 22, 2026 · Solicitation: W912QR26BA013",
-      "products": [],
-      "added": "May 7, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/aa275c98bc8b4435a382500e4ed9638b/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-57649f63e4144bb2b3d55b7989cedca8",
-      "name": "Construction of Small Arms Ammunition Magazine, Blue Grass Army Depot, Richmond, Kentucky",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: May 22, 2026 · Solicitation: W912QR26RA049",
-      "products": [],
-      "added": "May 7, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/57649f63e4144bb2b3d55b7989cedca8/view",
-      "bc": ""
-    },
-    {
       "id": "sam-0a9e8bc095cd499caa1c0ccd57acf751",
       "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
       "market": "Louisville",
@@ -244,7 +244,23 @@
       "bc": ""
     },
     {
-      "id": "sam-624281aaaad14996a19bbe5c18079836",
+      "id": "sam-d7bf70c364a84fad90c42b53d6a5d46a",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA017",
+      "products": [],
+      "added": "May 15, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/d7bf70c364a84fad90c42b53d6a5d46a/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-5f61cca6fc1640da99db590004414366",
       "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
       "market": "Louisville",
       "tier": "1",
@@ -254,9 +270,9 @@
       "stage": "bid",
       "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA008",
       "products": [],
-      "added": "May 14, 2026",
+      "added": "May 15, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/624281aaaad14996a19bbe5c18079836/view",
+      "url": "https://sam.gov/workspace/contract/opp/5f61cca6fc1640da99db590004414366/view",
       "bc": ""
     },
     {
@@ -273,22 +289,6 @@
       "added": "May 11, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-31bb43108fe94f318dd56a05912f09bd",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA017",
-      "products": [],
-      "added": "May 8, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/31bb43108fe94f318dd56a05912f09bd/view",
       "bc": ""
     }
   ]
