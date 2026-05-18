@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-05-17T09:25:54.373Z",
-  "count": 18,
-  "samCount": 18,
+  "lastFetched": "2026-05-18T11:35:07.691Z",
+  "count": 17,
+  "samCount": 17,
   "projects": [
     {
       "id": "sam-89cceb4961014d6fa99b4ff679658a7c",
@@ -129,22 +129,6 @@
       "added": "Apr 28, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/34d8b517be4b45328e1d4ec6154b9047/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-a61c4ee1e5204c3ea03dec6d7e1dde47",
-      "name": "Unmanned Fusion Warfare Laboratory (UFWL) at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: Apr 21, 2026 · Solicitation: W912QR26BA010",
-      "products": [],
-      "added": "Apr 17, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/a61c4ee1e5204c3ea03dec6d7e1dde47/view",
       "bc": ""
     },
     {
