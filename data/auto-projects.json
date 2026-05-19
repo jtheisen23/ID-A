@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-05-18T11:35:07.691Z",
-  "count": 17,
-  "samCount": 17,
+  "lastFetched": "2026-05-19T10:52:00.011Z",
+  "count": 18,
+  "samCount": 18,
   "projects": [
     {
       "id": "sam-89cceb4961014d6fa99b4ff679658a7c",
@@ -132,6 +132,38 @@
       "bc": ""
     },
     {
+      "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
+      "name": "Construction of UEPH Barracks at Fort Campbell KY",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR26RA016",
+      "products": [],
+      "added": "May 18, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/c56ff9e41241462e9351c80bd05edaf7/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-001832fe5b8346308f11089a56ff3a35",
+      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
+      "products": [],
+      "added": "May 18, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/001832fe5b8346308f11089a56ff3a35/view",
+      "bc": ""
+    },
+    {
       "id": "sam-6ebc27a1b94a4deca328c00b545c9143",
       "name": "Design-Bid-Build AES facility located at Joint Base Charleston, South Carolina",
       "market": "Louisville",
@@ -145,38 +177,6 @@
       "added": "May 12, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/6ebc27a1b94a4deca328c00b545c9143/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-2ccc046cc5ee448a92fa14e2217b2a9c",
-      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
-      "products": [],
-      "added": "May 12, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/2ccc046cc5ee448a92fa14e2217b2a9c/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-0e1e9b6490bd4d5dabea5ff503e50c21",
-      "name": "Construction of UEPH Barracks at Fort Campbell KY",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR26RA016",
-      "products": [],
-      "added": "May 12, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/0e1e9b6490bd4d5dabea5ff503e50c21/view",
       "bc": ""
     },
     {
@@ -225,6 +225,22 @@
       "added": "Apr 23, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/21ed5c80f21e4f3fb2273baa7b1d3fb1/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-bac313ec425945ee91d48353a129b2b2",
+      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
+      "products": [],
+      "added": "May 18, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
       "bc": ""
     },
     {
