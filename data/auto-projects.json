@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-05-19T10:52:00.011Z",
+  "lastFetched": "2026-05-20T10:39:52.742Z",
   "count": 18,
   "samCount": 18,
   "projects": [
+    {
+      "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
+      "name": "Construction of UEPH Barracks at Fort Campbell KY",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR26RA016",
+      "products": [],
+      "added": "May 18, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/c56ff9e41241462e9351c80bd05edaf7/view",
+      "bc": ""
+    },
     {
       "id": "sam-89cceb4961014d6fa99b4ff679658a7c",
       "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
@@ -17,6 +33,22 @@
       "added": "May 12, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/89cceb4961014d6fa99b4ff679658a7c/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-6ebc27a1b94a4deca328c00b545c9143",
+      "name": "Design-Bid-Build AES facility located at Joint Base Charleston, South Carolina",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Presolicitation · Due: May 27, 2026 · Solicitation: W912QR26BA019",
+      "products": [],
+      "added": "May 12, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/6ebc27a1b94a4deca328c00b545c9143/view",
       "bc": ""
     },
     {
@@ -116,35 +148,19 @@
       "bc": ""
     },
     {
-      "id": "sam-34d8b517be4b45328e1d4ec6154b9047",
-      "name": "FTC CDC Renovate B3069",
+      "id": "sam-21ed5c80f21e4f3fb2273baa7b1d3fb1",
+      "name": "DB DSCC Bridge Replacements Project",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "hot",
-      "notes": "Type: Solicitation · Due: May 4, 2026 · Solicitation: W912QR-61034642",
+      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR-60722627",
       "products": [],
-      "added": "Apr 28, 2026",
+      "added": "Apr 23, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/34d8b517be4b45328e1d4ec6154b9047/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
-      "name": "Construction of UEPH Barracks at Fort Campbell KY",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR26RA016",
-      "products": [],
-      "added": "May 18, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/c56ff9e41241462e9351c80bd05edaf7/view",
+      "url": "https://sam.gov/workspace/contract/opp/21ed5c80f21e4f3fb2273baa7b1d3fb1/view",
       "bc": ""
     },
     {
@@ -161,22 +177,6 @@
       "added": "May 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/001832fe5b8346308f11089a56ff3a35/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-6ebc27a1b94a4deca328c00b545c9143",
-      "name": "Design-Bid-Build AES facility located at Joint Base Charleston, South Carolina",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Presolicitation · Due: May 27, 2026 · Solicitation: W912QR26BA019",
-      "products": [],
-      "added": "May 12, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/6ebc27a1b94a4deca328c00b545c9143/view",
       "bc": ""
     },
     {
@@ -212,19 +212,35 @@
       "bc": ""
     },
     {
-      "id": "sam-21ed5c80f21e4f3fb2273baa7b1d3fb1",
-      "name": "DB DSCC Bridge Replacements Project",
+      "id": "sam-f1f0914d9ed34cfe8f8113b112ecd4b6",
+      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR-60722627",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 22, 2026 · Solicitation: W912QR26BA008",
       "products": [],
-      "added": "Apr 23, 2026",
+      "added": "May 19, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/21ed5c80f21e4f3fb2273baa7b1d3fb1/view",
+      "url": "https://sam.gov/workspace/contract/opp/f1f0914d9ed34cfe8f8113b112ecd4b6/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-4a579305245d41fca68ea468c0d43442",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "May 19, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/4a579305245d41fca68ea468c0d43442/view",
       "bc": ""
     },
     {
@@ -257,22 +273,6 @@
       "added": "May 15, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/d7bf70c364a84fad90c42b53d6a5d46a/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-5f61cca6fc1640da99db590004414366",
-      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA008",
-      "products": [],
-      "added": "May 15, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/5f61cca6fc1640da99db590004414366/view",
       "bc": ""
     },
     {
