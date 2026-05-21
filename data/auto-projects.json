@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-05-20T10:39:52.742Z",
-  "count": 18,
-  "samCount": 18,
+  "lastFetched": "2026-05-21T10:56:33.738Z",
+  "count": 17,
+  "samCount": 17,
   "projects": [
     {
       "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
@@ -116,22 +116,6 @@
       "bc": ""
     },
     {
-      "id": "sam-49c98f633fda4588aa3f0c672081e998",
-      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building, Bldg. 1520",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: May 5, 2026 · Solicitation: W912QR26RA047",
-      "products": [],
-      "added": "May 4, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/49c98f633fda4588aa3f0c672081e998/view",
-      "bc": ""
-    },
-    {
       "id": "sam-42ccaf9b1f2148afa68d1634fad48aef",
       "name": "***PRESOLICITATION*** D/B/B Construction - Collective Training Barracks at Devens RFTA, MA",
       "market": "Louisville",
@@ -164,7 +148,7 @@
       "bc": ""
     },
     {
-      "id": "sam-001832fe5b8346308f11089a56ff3a35",
+      "id": "sam-e876498b2a06476d86e095be44f9df17",
       "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
       "market": "Louisville",
       "tier": "1",
@@ -174,9 +158,25 @@
       "stage": "warm",
       "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
       "products": [],
-      "added": "May 18, 2026",
+      "added": "May 20, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/001832fe5b8346308f11089a56ff3a35/view",
+      "url": "https://sam.gov/workspace/contract/opp/e876498b2a06476d86e095be44f9df17/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-9e9a69b50806421fa0a451dd7140d894",
+      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 10, 2026 · Solicitation: W912QR26RA055",
+      "products": [],
+      "added": "May 11, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
       "bc": ""
     },
     {
@@ -209,6 +209,22 @@
       "added": "May 5, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/66a9f2bf50dd4eff80414eec37670b38/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-b3d73ea9c5084b5481a66cec9c19e15a",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA017",
+      "products": [],
+      "added": "May 20, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/b3d73ea9c5084b5481a66cec9c19e15a/view",
       "bc": ""
     },
     {
@@ -257,38 +273,6 @@
       "added": "May 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-d7bf70c364a84fad90c42b53d6a5d46a",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA017",
-      "products": [],
-      "added": "May 15, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/d7bf70c364a84fad90c42b53d6a5d46a/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-9e9a69b50806421fa0a451dd7140d894",
-      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 10, 2026 · Solicitation: W912QR26RA055",
-      "products": [],
-      "added": "May 11, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
       "bc": ""
     }
   ]
