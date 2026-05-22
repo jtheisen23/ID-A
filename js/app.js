@@ -42,13 +42,21 @@ function renderFetchBanner(data) {
   const banner = document.getElementById('fetchBanner');
   if (!banner) return;
   if (!data.lastFetched) { banner.style.display = 'none'; return; }
-  const date = new Date(data.lastFetched).toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  const date = new Date(data.lastFetched).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
   banner.style.display = 'flex';
   banner.innerHTML = `
-    <i class="ti ti-refresh" style="font-size:14px;"></i>
+    <i id="fetchRefreshBtn" class="ti ti-refresh" style="font-size:14px;cursor:pointer;" title="Check for the latest sync"></i>
     <span>Last synced <strong>${date}</strong> · <strong>${data.samCount || 0}</strong> new bids from SAM.gov · <strong>${data.count || 0}</strong> total in pipeline</span>
     <a href="data/fetch-log.json" target="_blank" style="margin-left:auto;font-size:11px;color:#0F6E56;text-decoration:none;">View log →</a>
   `;
+  const btn = document.getElementById('fetchRefreshBtn');
+  if (btn) {
+    btn.addEventListener('click', async () => {
+      btn.style.animation = 'spin 0.8s linear infinite';
+      await reloadAutoProjects();
+      btn.style.animation = '';
+    });
+  }
 }
 
 function save() {
