@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-05-23T09:30:21.188Z",
-  "count": 17,
-  "samCount": 17,
+  "lastFetched": "2026-05-24T09:46:10.084Z",
+  "count": 16,
+  "samCount": 16,
   "projects": [
     {
       "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
@@ -145,22 +145,6 @@
       "added": "Apr 28, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/42ccaf9b1f2148afa68d1634fad48aef/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-21ed5c80f21e4f3fb2273baa7b1d3fb1",
-      "name": "DB DSCC Bridge Replacements Project",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR-60722627",
-      "products": [],
-      "added": "Apr 23, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/21ed5c80f21e4f3fb2273baa7b1d3fb1/view",
       "bc": ""
     },
     {
