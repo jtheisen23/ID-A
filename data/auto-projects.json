@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-05-25T11:40:31.454Z",
+  "lastFetched": "2026-05-27T11:26:06.720Z",
   "count": 16,
   "samCount": 16,
   "projects": [
+    {
+      "id": "sam-e876498b2a06476d86e095be44f9df17",
+      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
+      "products": [],
+      "added": "May 20, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/e876498b2a06476d86e095be44f9df17/view",
+      "bc": ""
+    },
     {
       "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
       "name": "Construction of UEPH Barracks at Fort Campbell KY",
@@ -164,19 +180,19 @@
       "bc": ""
     },
     {
-      "id": "sam-e876498b2a06476d86e095be44f9df17",
-      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
+      "id": "sam-b3d73ea9c5084b5481a66cec9c19e15a",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
+      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA017",
       "products": [],
       "added": "May 20, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/e876498b2a06476d86e095be44f9df17/view",
+      "url": "https://sam.gov/workspace/contract/opp/b3d73ea9c5084b5481a66cec9c19e15a/view",
       "bc": ""
     },
     {
@@ -196,23 +212,7 @@
       "bc": ""
     },
     {
-      "id": "sam-b3d73ea9c5084b5481a66cec9c19e15a",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA017",
-      "products": [],
-      "added": "May 20, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/b3d73ea9c5084b5481a66cec9c19e15a/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-f1f0914d9ed34cfe8f8113b112ecd4b6",
+      "id": "sam-05452b39da9049d8a3c09f080f27c7c6",
       "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
       "market": "Louisville",
       "tier": "1",
@@ -222,9 +222,9 @@
       "stage": "bid",
       "notes": "Type: Solicitation · Due: Jun 22, 2026 · Solicitation: W912QR26BA008",
       "products": [],
-      "added": "May 19, 2026",
+      "added": "May 26, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/f1f0914d9ed34cfe8f8113b112ecd4b6/view",
+      "url": "https://sam.gov/workspace/contract/opp/05452b39da9049d8a3c09f080f27c7c6/view",
       "bc": ""
     },
     {
