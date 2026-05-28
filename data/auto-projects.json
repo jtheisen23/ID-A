@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-05-27T11:26:06.720Z",
+  "lastFetched": "2026-05-28T11:27:13.784Z",
   "count": 16,
   "samCount": 16,
   "projects": [
@@ -212,6 +212,22 @@
       "bc": ""
     },
     {
+      "id": "sam-e43e791632c743a793eabb178b4613f1",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "May 27, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/e43e791632c743a793eabb178b4613f1/view",
+      "bc": ""
+    },
+    {
       "id": "sam-05452b39da9049d8a3c09f080f27c7c6",
       "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
       "market": "Louisville",
@@ -225,22 +241,6 @@
       "added": "May 26, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/05452b39da9049d8a3c09f080f27c7c6/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-4a579305245d41fca68ea468c0d43442",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "May 19, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/4a579305245d41fca68ea468c0d43442/view",
       "bc": ""
     },
     {
