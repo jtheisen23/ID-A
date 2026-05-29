@@ -1,10 +1,10 @@
 {
-  "lastFetched": "2026-05-28T11:27:13.784Z",
-  "count": 16,
-  "samCount": 16,
+  "lastFetched": "2026-05-29T11:01:23.130Z",
+  "count": 15,
+  "samCount": 15,
   "projects": [
     {
-      "id": "sam-e876498b2a06476d86e095be44f9df17",
+      "id": "sam-cf3db401d2f14333aebf486c124351c1",
       "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
       "market": "Louisville",
       "tier": "1",
@@ -14,9 +14,9 @@
       "stage": "hot",
       "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
       "products": [],
-      "added": "May 20, 2026",
+      "added": "May 28, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/e876498b2a06476d86e095be44f9df17/view",
+      "url": "https://sam.gov/workspace/contract/opp/cf3db401d2f14333aebf486c124351c1/view",
       "bc": ""
     },
     {
@@ -148,19 +148,19 @@
       "bc": ""
     },
     {
-      "id": "sam-42ccaf9b1f2148afa68d1634fad48aef",
-      "name": "***PRESOLICITATION*** D/B/B Construction - Collective Training Barracks at Devens RFTA, MA",
+      "id": "sam-e43e791632c743a793eabb178b4613f1",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: May 13, 2026 · Solicitation: W912QR26RA051",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
       "products": [],
-      "added": "Apr 28, 2026",
+      "added": "May 27, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/42ccaf9b1f2148afa68d1634fad48aef/view",
+      "url": "https://sam.gov/workspace/contract/opp/e43e791632c743a793eabb178b4613f1/view",
       "bc": ""
     },
     {
@@ -209,22 +209,6 @@
       "added": "May 11, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-e43e791632c743a793eabb178b4613f1",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "May 27, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/e43e791632c743a793eabb178b4613f1/view",
       "bc": ""
     },
     {
