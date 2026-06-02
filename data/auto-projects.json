@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-06-01T13:25:05.448Z",
-  "count": 16,
-  "samCount": 16,
+  "lastFetched": "2026-06-02T11:56:00.807Z",
+  "count": 17,
+  "samCount": 17,
   "projects": [
     {
       "id": "sam-cf3db401d2f14333aebf486c124351c1",
@@ -148,6 +148,22 @@
       "bc": ""
     },
     {
+      "id": "sam-9b61ceefe46340a58c0946b68707b708",
+      "name": "DB DSCC Bridge Replacements Project",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 9, 2026 · Solicitation: W912QR-60722627",
+      "products": [],
+      "added": "Jun 1, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9b61ceefe46340a58c0946b68707b708/view",
+      "bc": ""
+    },
+    {
       "id": "sam-eab6600bde8642c6a7d36fb07f7df90f",
       "name": "Cyber Maintenance Hangar Modernization - Mansfield, OH",
       "market": "Louisville",
@@ -177,6 +193,22 @@
       "added": "May 27, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/e43e791632c743a793eabb178b4613f1/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-05452b39da9049d8a3c09f080f27c7c6",
+      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 22, 2026 · Solicitation: W912QR26BA008",
+      "products": [],
+      "added": "May 26, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/05452b39da9049d8a3c09f080f27c7c6/view",
       "bc": ""
     },
     {
@@ -225,22 +257,6 @@
       "added": "May 11, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-05452b39da9049d8a3c09f080f27c7c6",
-      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 22, 2026 · Solicitation: W912QR26BA008",
-      "products": [],
-      "added": "May 26, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/05452b39da9049d8a3c09f080f27c7c6/view",
       "bc": ""
     },
     {
