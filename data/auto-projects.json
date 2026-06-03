@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-06-02T11:56:00.807Z",
-  "count": 17,
-  "samCount": 17,
+  "lastFetched": "2026-06-03T12:27:18.329Z",
+  "count": 18,
+  "samCount": 18,
   "projects": [
+    {
+      "id": "sam-9b61ceefe46340a58c0946b68707b708",
+      "name": "DB DSCC Bridge Replacements Project",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 9, 2026 · Solicitation: W912QR-60722627",
+      "products": [],
+      "added": "Jun 1, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9b61ceefe46340a58c0946b68707b708/view",
+      "bc": ""
+    },
     {
       "id": "sam-cf3db401d2f14333aebf486c124351c1",
       "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
@@ -148,22 +164,6 @@
       "bc": ""
     },
     {
-      "id": "sam-9b61ceefe46340a58c0946b68707b708",
-      "name": "DB DSCC Bridge Replacements Project",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 9, 2026 · Solicitation: W912QR-60722627",
-      "products": [],
-      "added": "Jun 1, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9b61ceefe46340a58c0946b68707b708/view",
-      "bc": ""
-    },
-    {
       "id": "sam-eab6600bde8642c6a7d36fb07f7df90f",
       "name": "Cyber Maintenance Hangar Modernization - Mansfield, OH",
       "market": "Louisville",
@@ -244,6 +244,22 @@
       "bc": ""
     },
     {
+      "id": "sam-bac313ec425945ee91d48353a129b2b2",
+      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
+      "products": [],
+      "added": "May 18, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "bc": ""
+    },
+    {
       "id": "sam-9e9a69b50806421fa0a451dd7140d894",
       "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
       "market": "Louisville",
@@ -260,19 +276,19 @@
       "bc": ""
     },
     {
-      "id": "sam-bac313ec425945ee91d48353a129b2b2",
-      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
+      "id": "sam-a0b062cf15184cceaa9d9c2cc7d49bc0",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
+      "notes": "Type: Solicitation · Due: Jul 7, 2026 · Solicitation: W912QR26BA016",
       "products": [],
-      "added": "May 18, 2026",
+      "added": "Jun 2, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "url": "https://sam.gov/workspace/contract/opp/a0b062cf15184cceaa9d9c2cc7d49bc0/view",
       "bc": ""
     }
   ]
