@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-06-03T12:27:18.329Z",
-  "count": 18,
-  "samCount": 18,
+  "lastFetched": "2026-06-04T10:53:03.331Z",
+  "count": 17,
+  "samCount": 17,
   "projects": [
     {
       "id": "sam-9b61ceefe46340a58c0946b68707b708",
@@ -84,6 +84,22 @@
       "bc": ""
     },
     {
+      "id": "sam-9e9a69b50806421fa0a451dd7140d894",
+      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 10, 2026 · Solicitation: W912QR26RA055",
+      "products": [],
+      "added": "May 11, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
+      "bc": ""
+    },
+    {
       "id": "sam-aa275c98bc8b4435a382500e4ed9638b",
       "name": "Renovation of Bldg 27 at DSCC, OH",
       "market": "Louisville",
@@ -148,19 +164,19 @@
       "bc": ""
     },
     {
-      "id": "sam-f656ad5eae0d41c8bdec59163e864834",
-      "name": "FTC DB2B Fire Station",
+      "id": "sam-54a7fc21454f46eab512968308836206",
+      "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
       "market": "Louisville",
       "tier": "1",
-      "vertical": "gov",
+      "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: May 8, 2026 · Solicitation: W912QR26RA031",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 11, 2026 · Solicitation: W912QR26BA007",
       "products": [],
-      "added": "May 4, 2026",
+      "added": "Jun 3, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/f656ad5eae0d41c8bdec59163e864834/view",
+      "url": "https://sam.gov/workspace/contract/opp/54a7fc21454f46eab512968308836206/view",
       "bc": ""
     },
     {
@@ -212,22 +228,6 @@
       "bc": ""
     },
     {
-      "id": "sam-cb3ce2f38a924610baa8332f2079b742",
-      "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 11, 2026 · Solicitation: W912QR26BA007",
-      "products": [],
-      "added": "May 21, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/cb3ce2f38a924610baa8332f2079b742/view",
-      "bc": ""
-    },
-    {
       "id": "sam-b3d73ea9c5084b5481a66cec9c19e15a",
       "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
       "market": "Louisville",
@@ -257,22 +257,6 @@
       "added": "May 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-9e9a69b50806421fa0a451dd7140d894",
-      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 10, 2026 · Solicitation: W912QR26RA055",
-      "products": [],
-      "added": "May 11, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
       "bc": ""
     },
     {
