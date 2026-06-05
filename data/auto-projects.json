@@ -1,8 +1,40 @@
 {
-  "lastFetched": "2026-06-04T10:53:03.331Z",
+  "lastFetched": "2026-06-05T11:16:26.455Z",
   "count": 17,
   "samCount": 17,
   "projects": [
+    {
+      "id": "sam-946efea8b4d34371822e1e8ee987abb7",
+      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
+      "products": [],
+      "added": "Jun 4, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/946efea8b4d34371822e1e8ee987abb7/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-54a7fc21454f46eab512968308836206",
+      "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 11, 2026 · Solicitation: W912QR26BA007",
+      "products": [],
+      "added": "Jun 3, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/54a7fc21454f46eab512968308836206/view",
+      "bc": ""
+    },
     {
       "id": "sam-9b61ceefe46340a58c0946b68707b708",
       "name": "DB DSCC Bridge Replacements Project",
@@ -17,22 +49,6 @@
       "added": "Jun 1, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/9b61ceefe46340a58c0946b68707b708/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-cf3db401d2f14333aebf486c124351c1",
-      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
-      "products": [],
-      "added": "May 28, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/cf3db401d2f14333aebf486c124351c1/view",
       "bc": ""
     },
     {
@@ -164,19 +180,19 @@
       "bc": ""
     },
     {
-      "id": "sam-54a7fc21454f46eab512968308836206",
-      "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
+      "id": "sam-7ffc9c9b3d1840b1a31ea7f9f4ab5495",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 11, 2026 · Solicitation: W912QR26BA007",
+      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
       "products": [],
-      "added": "Jun 3, 2026",
+      "added": "Jun 4, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/54a7fc21454f46eab512968308836206/view",
+      "url": "https://sam.gov/workspace/contract/opp/7ffc9c9b3d1840b1a31ea7f9f4ab5495/view",
       "bc": ""
     },
     {
@@ -193,22 +209,6 @@
       "added": "May 29, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/eab6600bde8642c6a7d36fb07f7df90f/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-e43e791632c743a793eabb178b4613f1",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "May 27, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/e43e791632c743a793eabb178b4613f1/view",
       "bc": ""
     },
     {
