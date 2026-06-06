@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-06-05T11:16:26.455Z",
+  "lastFetched": "2026-06-06T09:51:25.778Z",
   "count": 17,
   "samCount": 17,
   "projects": [
@@ -100,22 +100,6 @@
       "bc": ""
     },
     {
-      "id": "sam-9e9a69b50806421fa0a451dd7140d894",
-      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 10, 2026 · Solicitation: W912QR26RA055",
-      "products": [],
-      "added": "May 11, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9e9a69b50806421fa0a451dd7140d894/view",
-      "bc": ""
-    },
-    {
       "id": "sam-aa275c98bc8b4435a382500e4ed9638b",
       "name": "Renovation of Bldg 27 at DSCC, OH",
       "market": "Louisville",
@@ -164,19 +148,19 @@
       "bc": ""
     },
     {
-      "id": "sam-2ae74d3fd8924d01b6fd33ff8ce2f714",
-      "name": "Nolin Lake Showerhouse Wall Cladding",
+      "id": "sam-7fab161b056b4002a995a3e92c06954f",
+      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Combined Synopsis/Solicitation · Due: May 20, 2026 · Solicitation: W912QR26QA040",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 16, 2026 · Solicitation: W912QR26RA055",
       "products": [],
-      "added": "May 6, 2026",
+      "added": "Jun 5, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/2ae74d3fd8924d01b6fd33ff8ce2f714/view",
+      "url": "https://sam.gov/workspace/contract/opp/7fab161b056b4002a995a3e92c06954f/view",
       "bc": ""
     },
     {
@@ -257,6 +241,22 @@
       "added": "May 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-1501592528464bf3a9779a00da921083",
+      "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jul 30, 2026 · Solicitation: W912QR26RA012",
+      "products": [],
+      "added": "Jun 5, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/1501592528464bf3a9779a00da921083/view",
       "bc": ""
     },
     {
