@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-06-06T09:51:25.778Z",
-  "count": 17,
-  "samCount": 17,
+  "lastFetched": "2026-06-07T10:18:50.885Z",
+  "count": 14,
+  "samCount": 14,
   "projects": [
     {
       "id": "sam-946efea8b4d34371822e1e8ee987abb7",
@@ -97,54 +97,6 @@
       "added": "May 12, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/6ebc27a1b94a4deca328c00b545c9143/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-aa275c98bc8b4435a382500e4ed9638b",
-      "name": "Renovation of Bldg 27 at DSCC, OH",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: May 22, 2026 · Solicitation: W912QR26BA013",
-      "products": [],
-      "added": "May 7, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/aa275c98bc8b4435a382500e4ed9638b/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-57649f63e4144bb2b3d55b7989cedca8",
-      "name": "Construction of Small Arms Ammunition Magazine, Blue Grass Army Depot, Richmond, Kentucky",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: May 22, 2026 · Solicitation: W912QR26RA049",
-      "products": [],
-      "added": "May 7, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/57649f63e4144bb2b3d55b7989cedca8/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-0a9e8bc095cd499caa1c0ccd57acf751",
-      "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: May 28, 2026 · Solicitation: W912QR26RA012",
-      "products": [],
-      "added": "May 7, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/0a9e8bc095cd499caa1c0ccd57acf751/view",
       "bc": ""
     },
     {
