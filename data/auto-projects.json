@@ -1,8 +1,40 @@
 {
-  "lastFetched": "2026-06-09T10:49:46.239Z",
+  "lastFetched": "2026-06-10T11:28:30.631Z",
   "count": 14,
   "samCount": 14,
   "projects": [
+    {
+      "id": "sam-163f8b8f26fc42e3b387b733220f47d2",
+      "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 16, 2026 · Solicitation: W912QR26BA007",
+      "products": [],
+      "added": "Jun 9, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/163f8b8f26fc42e3b387b733220f47d2/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-7fab161b056b4002a995a3e92c06954f",
+      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 16, 2026 · Solicitation: W912QR26RA055",
+      "products": [],
+      "added": "Jun 5, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/7fab161b056b4002a995a3e92c06954f/view",
+      "bc": ""
+    },
     {
       "id": "sam-946efea8b4d34371822e1e8ee987abb7",
       "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
@@ -17,22 +49,6 @@
       "added": "Jun 4, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/946efea8b4d34371822e1e8ee987abb7/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-54a7fc21454f46eab512968308836206",
-      "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 11, 2026 · Solicitation: W912QR26BA007",
-      "products": [],
-      "added": "Jun 3, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/54a7fc21454f46eab512968308836206/view",
       "bc": ""
     },
     {
@@ -132,22 +148,6 @@
       "bc": ""
     },
     {
-      "id": "sam-7fab161b056b4002a995a3e92c06954f",
-      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 16, 2026 · Solicitation: W912QR26RA055",
-      "products": [],
-      "added": "Jun 5, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/7fab161b056b4002a995a3e92c06954f/view",
-      "bc": ""
-    },
-    {
       "id": "sam-7ffc9c9b3d1840b1a31ea7f9f4ab5495",
       "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
       "market": "Louisville",
@@ -196,6 +196,22 @@
       "bc": ""
     },
     {
+      "id": "sam-cd3b903286e748938ff07f93cdcbf380",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jul 7, 2026 · Solicitation: W912QR26BA016",
+      "products": [],
+      "added": "Jun 9, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/cd3b903286e748938ff07f93cdcbf380/view",
+      "bc": ""
+    },
+    {
       "id": "sam-1501592528464bf3a9779a00da921083",
       "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
       "market": "Louisville",
@@ -209,22 +225,6 @@
       "added": "Jun 5, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/1501592528464bf3a9779a00da921083/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-a0b062cf15184cceaa9d9c2cc7d49bc0",
-      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jul 7, 2026 · Solicitation: W912QR26BA016",
-      "products": [],
-      "added": "Jun 2, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/a0b062cf15184cceaa9d9c2cc7d49bc0/view",
       "bc": ""
     }
   ]
