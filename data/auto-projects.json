@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-06-10T11:28:30.631Z",
-  "count": 14,
-  "samCount": 14,
+  "lastFetched": "2026-06-11T12:01:24.704Z",
+  "count": 16,
+  "samCount": 16,
   "projects": [
     {
       "id": "sam-163f8b8f26fc42e3b387b733220f47d2",
@@ -84,22 +84,6 @@
       "bc": ""
     },
     {
-      "id": "sam-b3d73ea9c5084b5481a66cec9c19e15a",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 15, 2026 · Solicitation: W912QR26BA017",
-      "products": [],
-      "added": "May 20, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/b3d73ea9c5084b5481a66cec9c19e15a/view",
-      "bc": ""
-    },
-    {
       "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
       "name": "Construction of UEPH Barracks at Fort Campbell KY",
       "market": "Louisville",
@@ -148,6 +132,38 @@
       "bc": ""
     },
     {
+      "id": "sam-bc34e9460b3341f9ab54b19b053d1185",
+      "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the  Charleston Armed Forces Reserve Center, Building 17001 located in Charleston, WV",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Presolicitation · Due: Jun 25, 2026 · Solicitation: W912QR61618311",
+      "products": [],
+      "added": "Jun 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bc34e9460b3341f9ab54b19b053d1185/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-92757ddd971f417d9336aafaec12afd1",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 29, 2026 · Solicitation: W912QR26BA017",
+      "products": [],
+      "added": "Jun 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/92757ddd971f417d9336aafaec12afd1/view",
+      "bc": ""
+    },
+    {
       "id": "sam-7ffc9c9b3d1840b1a31ea7f9f4ab5495",
       "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
       "market": "Louisville",
@@ -193,6 +209,22 @@
       "added": "May 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-0a3468f375124829a4f9abc7ad2dfb69",
+      "name": "FTC CDC Renovate B3069",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jul 10, 2026 · Solicitation: W912QR-61034642",
+      "products": [],
+      "added": "Jun 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
       "bc": ""
     },
     {
