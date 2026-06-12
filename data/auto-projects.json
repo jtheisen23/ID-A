@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-06-11T12:01:24.704Z",
-  "count": 16,
-  "samCount": 16,
+  "lastFetched": "2026-06-12T11:32:27.802Z",
+  "count": 14,
+  "samCount": 14,
   "projects": [
     {
       "id": "sam-163f8b8f26fc42e3b387b733220f47d2",
@@ -100,38 +100,6 @@
       "bc": ""
     },
     {
-      "id": "sam-89cceb4961014d6fa99b4ff679658a7c",
-      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: May 18, 2026 · Solicitation: W912QR26RA035",
-      "products": [],
-      "added": "May 12, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/89cceb4961014d6fa99b4ff679658a7c/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-6ebc27a1b94a4deca328c00b545c9143",
-      "name": "Design-Bid-Build AES facility located at Joint Base Charleston, South Carolina",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: May 27, 2026 · Solicitation: W912QR26BA019",
-      "products": [],
-      "added": "May 12, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/6ebc27a1b94a4deca328c00b545c9143/view",
-      "bc": ""
-    },
-    {
       "id": "sam-bc34e9460b3341f9ab54b19b053d1185",
       "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the  Charleston Armed Forces Reserve Center, Building 17001 located in Charleston, WV",
       "market": "Louisville",
@@ -164,22 +132,6 @@
       "bc": ""
     },
     {
-      "id": "sam-7ffc9c9b3d1840b1a31ea7f9f4ab5495",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 18, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "Jun 4, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/7ffc9c9b3d1840b1a31ea7f9f4ab5495/view",
-      "bc": ""
-    },
-    {
       "id": "sam-05452b39da9049d8a3c09f080f27c7c6",
       "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
       "market": "Louisville",
@@ -209,6 +161,22 @@
       "added": "May 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-f2f8bbf704a74f7497cdfcb9bbced043",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jul 14, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "Jun 11, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/f2f8bbf704a74f7497cdfcb9bbced043/view",
       "bc": ""
     },
     {
