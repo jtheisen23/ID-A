@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-06-15T13:43:47.315Z",
+  "lastFetched": "2026-06-16T12:43:59.435Z",
   "count": 14,
   "samCount": 14,
   "projects": [
@@ -100,6 +100,22 @@
       "bc": ""
     },
     {
+      "id": "sam-6feb6dcacd7543b2aa871f221e2c1550",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 29, 2026 · Solicitation: W912QR26BA017",
+      "products": [],
+      "added": "Jun 15, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/6feb6dcacd7543b2aa871f221e2c1550/view",
+      "bc": ""
+    },
+    {
       "id": "sam-bc34e9460b3341f9ab54b19b053d1185",
       "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the  Charleston Armed Forces Reserve Center, Building 17001 located in Charleston, WV",
       "market": "Louisville",
@@ -116,38 +132,6 @@
       "bc": ""
     },
     {
-      "id": "sam-92757ddd971f417d9336aafaec12afd1",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 29, 2026 · Solicitation: W912QR26BA017",
-      "products": [],
-      "added": "Jun 10, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/92757ddd971f417d9336aafaec12afd1/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-05452b39da9049d8a3c09f080f27c7c6",
-      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 22, 2026 · Solicitation: W912QR26BA008",
-      "products": [],
-      "added": "May 26, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/05452b39da9049d8a3c09f080f27c7c6/view",
-      "bc": ""
-    },
-    {
       "id": "sam-bac313ec425945ee91d48353a129b2b2",
       "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
       "market": "Louisville",
@@ -161,6 +145,22 @@
       "added": "May 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-ca27d58e22aa4d379aeb9f5a8803a0b5",
+      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Jul 8, 2026 · Solicitation: W912QR26BA008",
+      "products": [],
+      "added": "Jun 15, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/ca27d58e22aa4d379aeb9f5a8803a0b5/view",
       "bc": ""
     },
     {
