@@ -1,10 +1,10 @@
 {
-  "lastFetched": "2026-06-16T12:43:59.435Z",
-  "count": 14,
-  "samCount": 14,
+  "lastFetched": "2026-06-17T12:08:24.885Z",
+  "count": 15,
+  "samCount": 15,
   "projects": [
     {
-      "id": "sam-163f8b8f26fc42e3b387b733220f47d2",
+      "id": "sam-269a3b229b6e48e0a36022bccccd931b",
       "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
       "market": "Louisville",
       "tier": "1",
@@ -14,9 +14,9 @@
       "stage": "hot",
       "notes": "Type: Solicitation · Due: Jun 16, 2026 · Solicitation: W912QR26BA007",
       "products": [],
-      "added": "Jun 9, 2026",
+      "added": "Jun 16, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/163f8b8f26fc42e3b387b733220f47d2/view",
+      "url": "https://sam.gov/workspace/contract/opp/269a3b229b6e48e0a36022bccccd931b/view",
       "bc": ""
     },
     {
@@ -100,6 +100,38 @@
       "bc": ""
     },
     {
+      "id": "sam-bac313ec425945ee91d48353a129b2b2",
+      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
+      "products": [],
+      "added": "May 18, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-8b2fb188638a442f8c94304ec83a0f5a",
+      "name": "FTC Air Traffic Control Tower",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Presolicitation · Due: Jul 1, 2026 · Solicitation: W912QR26RATCT",
+      "products": [],
+      "added": "Jun 16, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/8b2fb188638a442f8c94304ec83a0f5a/view",
+      "bc": ""
+    },
+    {
       "id": "sam-6feb6dcacd7543b2aa871f221e2c1550",
       "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
       "market": "Louisville",
@@ -132,19 +164,19 @@
       "bc": ""
     },
     {
-      "id": "sam-bac313ec425945ee91d48353a129b2b2",
-      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
+      "id": "sam-cd3b903286e748938ff07f93cdcbf380",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
+      "notes": "Type: Solicitation · Due: Jul 7, 2026 · Solicitation: W912QR26BA016",
       "products": [],
-      "added": "May 18, 2026",
+      "added": "Jun 9, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "url": "https://sam.gov/workspace/contract/opp/cd3b903286e748938ff07f93cdcbf380/view",
       "bc": ""
     },
     {
@@ -193,22 +225,6 @@
       "added": "Jun 10, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-cd3b903286e748938ff07f93cdcbf380",
-      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jul 7, 2026 · Solicitation: W912QR26BA016",
-      "products": [],
-      "added": "Jun 9, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/cd3b903286e748938ff07f93cdcbf380/view",
       "bc": ""
     },
     {
