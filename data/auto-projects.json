@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-06-17T12:08:24.885Z",
+  "lastFetched": "2026-06-18T11:42:11.927Z",
   "count": 15,
   "samCount": 15,
   "projects": [
+    {
+      "id": "sam-9c605c8a5a384d3d82921ae0d207902d",
+      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
+      "products": [],
+      "added": "Jun 17, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9c605c8a5a384d3d82921ae0d207902d/view",
+      "bc": ""
+    },
     {
       "id": "sam-269a3b229b6e48e0a36022bccccd931b",
       "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
@@ -84,35 +100,19 @@
       "bc": ""
     },
     {
-      "id": "sam-c56ff9e41241462e9351c80bd05edaf7",
-      "name": "Construction of UEPH Barracks at Fort Campbell KY",
+      "id": "sam-1048c32ff3d8446a9eb44c2cc6d58469",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: May 26, 2026 · Solicitation: W912QR26RA016",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jun 29, 2026 · Solicitation: W912QR26BA017",
       "products": [],
-      "added": "May 18, 2026",
+      "added": "Jun 17, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/c56ff9e41241462e9351c80bd05edaf7/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-bac313ec425945ee91d48353a129b2b2",
-      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
-      "products": [],
-      "added": "May 18, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bac313ec425945ee91d48353a129b2b2/view",
+      "url": "https://sam.gov/workspace/contract/opp/1048c32ff3d8446a9eb44c2cc6d58469/view",
       "bc": ""
     },
     {
@@ -132,19 +132,19 @@
       "bc": ""
     },
     {
-      "id": "sam-6feb6dcacd7543b2aa871f221e2c1550",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
+      "id": "sam-ca27d58e22aa4d379aeb9f5a8803a0b5",
+      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 29, 2026 · Solicitation: W912QR26BA017",
+      "notes": "Type: Solicitation · Due: Jul 8, 2026 · Solicitation: W912QR26BA008",
       "products": [],
       "added": "Jun 15, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/6feb6dcacd7543b2aa871f221e2c1550/view",
+      "url": "https://sam.gov/workspace/contract/opp/ca27d58e22aa4d379aeb9f5a8803a0b5/view",
       "bc": ""
     },
     {
@@ -180,19 +180,19 @@
       "bc": ""
     },
     {
-      "id": "sam-ca27d58e22aa4d379aeb9f5a8803a0b5",
-      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
+      "id": "sam-25e64f52d10d40d4a3bd6746a919f7a3",
+      "name": "Cyber Maintenance Hangar Modernization",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jul 8, 2026 · Solicitation: W912QR26BA008",
+      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA057",
       "products": [],
-      "added": "Jun 15, 2026",
+      "added": "Jun 17, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/ca27d58e22aa4d379aeb9f5a8803a0b5/view",
+      "url": "https://sam.gov/workspace/contract/opp/25e64f52d10d40d4a3bd6746a919f7a3/view",
       "bc": ""
     },
     {
