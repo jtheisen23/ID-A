@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-06-18T11:42:11.927Z",
-  "count": 15,
-  "samCount": 15,
+  "lastFetched": "2026-06-19T11:57:11.182Z",
+  "count": 16,
+  "samCount": 16,
   "projects": [
     {
       "id": "sam-9c605c8a5a384d3d82921ae0d207902d",
@@ -33,6 +33,22 @@
       "added": "Jun 16, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/269a3b229b6e48e0a36022bccccd931b/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-bc34e9460b3341f9ab54b19b053d1185",
+      "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the  Charleston Armed Forces Reserve Center, Building 17001 located in Charleston, WV",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Presolicitation · Due: Jun 25, 2026 · Solicitation: W912QR61618311",
+      "products": [],
+      "added": "Jun 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bc34e9460b3341f9ab54b19b053d1185/view",
       "bc": ""
     },
     {
@@ -100,6 +116,22 @@
       "bc": ""
     },
     {
+      "id": "sam-ddf7a273a817476ebf17590cff71c4bd",
+      "name": "Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC, Crane IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Presolicitation · Due: Jul 2, 2026 · Solicitation: W912QR26BA022",
+      "products": [],
+      "added": "Jun 18, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/ddf7a273a817476ebf17590cff71c4bd/view",
+      "bc": ""
+    },
+    {
       "id": "sam-1048c32ff3d8446a9eb44c2cc6d58469",
       "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
       "market": "Louisville",
@@ -145,22 +177,6 @@
       "added": "Jun 15, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/ca27d58e22aa4d379aeb9f5a8803a0b5/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-bc34e9460b3341f9ab54b19b053d1185",
-      "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the  Charleston Armed Forces Reserve Center, Building 17001 located in Charleston, WV",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Presolicitation · Due: Jun 25, 2026 · Solicitation: W912QR61618311",
-      "products": [],
-      "added": "Jun 10, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bc34e9460b3341f9ab54b19b053d1185/view",
       "bc": ""
     },
     {
