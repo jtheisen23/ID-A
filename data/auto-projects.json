@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-06-19T11:57:11.182Z",
+  "lastFetched": "2026-06-20T10:23:46.420Z",
   "count": 16,
   "samCount": 16,
   "projects": [
@@ -180,6 +180,22 @@
       "bc": ""
     },
     {
+      "id": "sam-0a3468f375124829a4f9abc7ad2dfb69",
+      "name": "FTC CDC Renovate B3069",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jul 10, 2026 · Solicitation: W912QR-61034642",
+      "products": [],
+      "added": "Jun 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
+      "bc": ""
+    },
+    {
       "id": "sam-cd3b903286e748938ff07f93cdcbf380",
       "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
       "market": "Louisville",
@@ -225,22 +241,6 @@
       "added": "Jun 11, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/f2f8bbf704a74f7497cdfcb9bbced043/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-0a3468f375124829a4f9abc7ad2dfb69",
-      "name": "FTC CDC Renovate B3069",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jul 10, 2026 · Solicitation: W912QR-61034642",
-      "products": [],
-      "added": "Jun 10, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
       "bc": ""
     },
     {
