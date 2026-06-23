@@ -1,10 +1,10 @@
 {
-  "lastFetched": "2026-06-22T13:24:11.914Z",
+  "lastFetched": "2026-06-23T10:51:40.118Z",
   "count": 16,
   "samCount": 16,
   "projects": [
     {
-      "id": "sam-9c605c8a5a384d3d82921ae0d207902d",
+      "id": "sam-d51dd1850a5f4b7697d87b150174ca24",
       "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
       "market": "Louisville",
       "tier": "1",
@@ -12,11 +12,27 @@
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 23, 2026 · Solicitation: W912QR26RA050",
+      "notes": "Type: Solicitation · Due: Jun 25, 2026 · Solicitation: W912QR26RA050",
+      "products": [],
+      "added": "Jun 22, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/d51dd1850a5f4b7697d87b150174ca24/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-1048c32ff3d8446a9eb44c2cc6d58469",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jun 29, 2026 · Solicitation: W912QR26BA017",
       "products": [],
       "added": "Jun 17, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9c605c8a5a384d3d82921ae0d207902d/view",
+      "url": "https://sam.gov/workspace/contract/opp/1048c32ff3d8446a9eb44c2cc6d58469/view",
       "bc": ""
     },
     {
@@ -116,6 +132,22 @@
       "bc": ""
     },
     {
+      "id": "sam-ebc65dd2b62442f3b619942129ddc1ec",
+      "name": "FTC Air Traffic Control Tower",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Presolicitation · Due: Jul 1, 2026 · Solicitation: W912QR26RATCT",
+      "products": [],
+      "added": "Jun 23, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/ebc65dd2b62442f3b619942129ddc1ec/view",
+      "bc": ""
+    },
+    {
       "id": "sam-ddf7a273a817476ebf17590cff71c4bd",
       "name": "Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC, Crane IN",
       "market": "Louisville",
@@ -129,38 +161,6 @@
       "added": "Jun 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/ddf7a273a817476ebf17590cff71c4bd/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-1048c32ff3d8446a9eb44c2cc6d58469",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jun 29, 2026 · Solicitation: W912QR26BA017",
-      "products": [],
-      "added": "Jun 17, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/1048c32ff3d8446a9eb44c2cc6d58469/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-8b2fb188638a442f8c94304ec83a0f5a",
-      "name": "FTC Air Traffic Control Tower",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Presolicitation · Due: Jul 1, 2026 · Solicitation: W912QR26RATCT",
-      "products": [],
-      "added": "Jun 16, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/8b2fb188638a442f8c94304ec83a0f5a/view",
       "bc": ""
     },
     {
@@ -212,7 +212,7 @@
       "bc": ""
     },
     {
-      "id": "sam-25e64f52d10d40d4a3bd6746a919f7a3",
+      "id": "sam-cc461aeaed1248fb9ec632242479b7d4",
       "name": "Cyber Maintenance Hangar Modernization",
       "market": "Louisville",
       "tier": "1",
@@ -222,9 +222,9 @@
       "stage": "bid",
       "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA057",
       "products": [],
-      "added": "Jun 17, 2026",
+      "added": "Jun 22, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/25e64f52d10d40d4a3bd6746a919f7a3/view",
+      "url": "https://sam.gov/workspace/contract/opp/cc461aeaed1248fb9ec632242479b7d4/view",
       "bc": ""
     },
     {
