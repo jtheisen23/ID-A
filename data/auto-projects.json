@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-06-23T10:51:40.118Z",
+  "lastFetched": "2026-06-24T10:38:19.638Z",
   "count": 16,
   "samCount": 16,
   "projects": [
@@ -148,6 +148,22 @@
       "bc": ""
     },
     {
+      "id": "sam-1a0848dd4f7d46a68696f38fde7bd5ea",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jul 7, 2026 · Solicitation: W912QR26BA016",
+      "products": [],
+      "added": "Jun 23, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/1a0848dd4f7d46a68696f38fde7bd5ea/view",
+      "bc": ""
+    },
+    {
       "id": "sam-ddf7a273a817476ebf17590cff71c4bd",
       "name": "Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC, Crane IN",
       "market": "Louisville",
@@ -180,6 +196,22 @@
       "bc": ""
     },
     {
+      "id": "sam-f2f8bbf704a74f7497cdfcb9bbced043",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jul 14, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "Jun 11, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/f2f8bbf704a74f7497cdfcb9bbced043/view",
+      "bc": ""
+    },
+    {
       "id": "sam-0a3468f375124829a4f9abc7ad2dfb69",
       "name": "FTC CDC Renovate B3069",
       "market": "Louisville",
@@ -196,22 +228,6 @@
       "bc": ""
     },
     {
-      "id": "sam-cd3b903286e748938ff07f93cdcbf380",
-      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 7, 2026 · Solicitation: W912QR26BA016",
-      "products": [],
-      "added": "Jun 9, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/cd3b903286e748938ff07f93cdcbf380/view",
-      "bc": ""
-    },
-    {
       "id": "sam-cc461aeaed1248fb9ec632242479b7d4",
       "name": "Cyber Maintenance Hangar Modernization",
       "market": "Louisville",
@@ -225,22 +241,6 @@
       "added": "Jun 22, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/cc461aeaed1248fb9ec632242479b7d4/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-f2f8bbf704a74f7497cdfcb9bbced043",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jul 14, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "Jun 11, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/f2f8bbf704a74f7497cdfcb9bbced043/view",
       "bc": ""
     },
     {
