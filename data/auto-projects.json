@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-06-24T10:38:19.638Z",
+  "lastFetched": "2026-06-25T10:31:25.980Z",
   "count": 16,
   "samCount": 16,
   "projects": [
+    {
+      "id": "sam-ebc65dd2b62442f3b619942129ddc1ec",
+      "name": "FTC Air Traffic Control Tower",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Presolicitation · Due: Jul 1, 2026 · Solicitation: W912QR26RATCT",
+      "products": [],
+      "added": "Jun 23, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/ebc65dd2b62442f3b619942129ddc1ec/view",
+      "bc": ""
+    },
     {
       "id": "sam-d51dd1850a5f4b7697d87b150174ca24",
       "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
@@ -100,22 +116,6 @@
       "bc": ""
     },
     {
-      "id": "sam-9b61ceefe46340a58c0946b68707b708",
-      "name": "DB DSCC Bridge Replacements Project",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 9, 2026 · Solicitation: W912QR-60722627",
-      "products": [],
-      "added": "Jun 1, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9b61ceefe46340a58c0946b68707b708/view",
-      "bc": ""
-    },
-    {
       "id": "sam-eab6600bde8642c6a7d36fb07f7df90f",
       "name": "Cyber Maintenance Hangar Modernization - Mansfield, OH",
       "market": "Louisville",
@@ -132,19 +132,19 @@
       "bc": ""
     },
     {
-      "id": "sam-ebc65dd2b62442f3b619942129ddc1ec",
-      "name": "FTC Air Traffic Control Tower",
+      "id": "sam-efcf20e5799e418aae954f4529b91508",
+      "name": "Green River Lake Tailwater Vault Toilet Project - Construction",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Presolicitation · Due: Jul 1, 2026 · Solicitation: W912QR26RATCT",
+      "notes": "Type: Combined Synopsis/Solicitation · Due: Jul 8, 2026 · Solicitation: W912QR26QA059",
       "products": [],
-      "added": "Jun 23, 2026",
+      "added": "Jun 24, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/ebc65dd2b62442f3b619942129ddc1ec/view",
+      "url": "https://sam.gov/workspace/contract/opp/efcf20e5799e418aae954f4529b91508/view",
       "bc": ""
     },
     {
