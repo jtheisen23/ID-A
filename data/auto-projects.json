@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-06-28T10:18:19.114Z",
-  "count": 17,
-  "samCount": 17,
+  "lastFetched": "2026-06-29T12:20:46.063Z",
+  "count": 16,
+  "samCount": 16,
   "projects": [
     {
       "id": "sam-ebc65dd2b62442f3b619942129ddc1ec",
@@ -113,22 +113,6 @@
       "added": "Jun 4, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/946efea8b4d34371822e1e8ee987abb7/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-eab6600bde8642c6a7d36fb07f7df90f",
-      "name": "Cyber Maintenance Hangar Modernization - Mansfield, OH",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: Jun 15, 2026 · Solicitation: W912QR_26_MANSCYBERHANGAR_Presolicitation",
-      "products": [],
-      "added": "May 29, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/eab6600bde8642c6a7d36fb07f7df90f/view",
       "bc": ""
     },
     {
