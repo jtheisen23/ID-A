@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-03T10:23:46.949Z",
+  "lastFetched": "2026-07-04T09:57:08.697Z",
   "count": 16,
   "samCount": 16,
   "projects": [
@@ -116,6 +116,22 @@
       "bc": ""
     },
     {
+      "id": "sam-0a3468f375124829a4f9abc7ad2dfb69",
+      "name": "FTC CDC Renovate B3069",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jul 10, 2026 · Solicitation: W912QR-61034642",
+      "products": [],
+      "added": "Jun 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
+      "bc": ""
+    },
+    {
       "id": "sam-7fab161b056b4002a995a3e92c06954f",
       "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
       "market": "Louisville",
@@ -209,22 +225,6 @@
       "added": "Jun 22, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/cc461aeaed1248fb9ec632242479b7d4/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-0a3468f375124829a4f9abc7ad2dfb69",
-      "name": "FTC CDC Renovate B3069",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 10, 2026 · Solicitation: W912QR-61034642",
-      "products": [],
-      "added": "Jun 10, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
       "bc": ""
     },
     {
