@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-04T09:57:08.697Z",
-  "count": 16,
-  "samCount": 16,
+  "lastFetched": "2026-07-05T10:01:08.846Z",
+  "count": 15,
+  "samCount": 15,
   "projects": [
     {
       "id": "sam-5f0ae7bd9fb14f3bbf1ae562bdd2077c",
@@ -145,22 +145,6 @@
       "added": "Jun 5, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/7fab161b056b4002a995a3e92c06954f/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-946efea8b4d34371822e1e8ee987abb7",
-      "name": "Construction of a Virtualized Electromagnetic Warfare and Mission Engineering Center (VEWMEC) at NSWC Crane, IN.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 1, 2026 · Solicitation: W912QR26BA018",
-      "products": [],
-      "added": "Jun 4, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/946efea8b4d34371822e1e8ee987abb7/view",
       "bc": ""
     },
     {
