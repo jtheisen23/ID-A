@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-05T10:01:08.846Z",
-  "count": 15,
-  "samCount": 15,
+  "lastFetched": "2026-07-06T11:52:20.079Z",
+  "count": 14,
+  "samCount": 14,
   "projects": [
     {
       "id": "sam-5f0ae7bd9fb14f3bbf1ae562bdd2077c",
@@ -129,22 +129,6 @@
       "added": "Jun 10, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-7fab161b056b4002a995a3e92c06954f",
-      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 16, 2026 · Solicitation: W912QR26RA055",
-      "products": [],
-      "added": "Jun 5, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/7fab161b056b4002a995a3e92c06954f/view",
       "bc": ""
     },
     {
