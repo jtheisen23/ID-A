@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-07-07T10:42:50.189Z",
+  "lastFetched": "2026-07-08T10:03:32.826Z",
   "count": 14,
   "samCount": 14,
   "projects": [
+    {
+      "id": "sam-c4aad9c3ecf74ac39e044b13a5ecfe30",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jul 14, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "Jul 1, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/c4aad9c3ecf74ac39e044b13a5ecfe30/view",
+      "bc": ""
+    },
     {
       "id": "sam-5f0ae7bd9fb14f3bbf1ae562bdd2077c",
       "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the  Charleston Armed Forces Reserve Center, Building 17001 located in Charleston, WV",
@@ -161,22 +177,6 @@
       "added": "Jul 6, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/9a647182146746d3849785114b287f54/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-c4aad9c3ecf74ac39e044b13a5ecfe30",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 14, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "Jul 1, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/c4aad9c3ecf74ac39e044b13a5ecfe30/view",
       "bc": ""
     },
     {
