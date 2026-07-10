@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-07-09T10:42:31.962Z",
-  "count": 14,
-  "samCount": 14,
+  "lastFetched": "2026-07-10T10:41:35.182Z",
+  "count": 15,
+  "samCount": 15,
   "projects": [
+    {
+      "id": "sam-0d0668faa3de4ca9a13c1463a2ce24a6",
+      "name": "Green River Lake Tailwater Vault Toilet Project - Construction",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Combined Synopsis/Solicitation · Due: Jul 16, 2026 · Solicitation: W912QR26QA059",
+      "products": [],
+      "added": "Jul 9, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/0d0668faa3de4ca9a13c1463a2ce24a6/view",
+      "bc": ""
+    },
     {
       "id": "sam-c4aad9c3ecf74ac39e044b13a5ecfe30",
       "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
@@ -33,22 +49,6 @@
       "added": "Jun 30, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/5f0ae7bd9fb14f3bbf1ae562bdd2077c/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-efcf20e5799e418aae954f4529b91508",
-      "name": "Green River Lake Tailwater Vault Toilet Project - Construction",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Combined Synopsis/Solicitation · Due: Jul 8, 2026 · Solicitation: W912QR26QA059",
-      "products": [],
-      "added": "Jun 24, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/efcf20e5799e418aae954f4529b91508/view",
       "bc": ""
     },
     {
@@ -180,6 +180,22 @@
       "bc": ""
     },
     {
+      "id": "sam-fedfe9abb50d40b585d8b9354fd8c405",
+      "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jul 30, 2026 · Solicitation: W912QR26RA012",
+      "products": [],
+      "added": "Jun 29, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/fedfe9abb50d40b585d8b9354fd8c405/view",
+      "bc": ""
+    },
+    {
       "id": "sam-60a0940e49ac4bbeb1cfd8ae3361d625",
       "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
       "market": "Louisville",
@@ -212,19 +228,19 @@
       "bc": ""
     },
     {
-      "id": "sam-fedfe9abb50d40b585d8b9354fd8c405",
-      "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
+      "id": "sam-bae8017d9cdb45ed84c567c0e5f4b2d6",
+      "name": "IDIQ DESIGN/BUILD, DESIGN BID/BUILD MULTIPLE AWARD TASK ORDER CONTRACT (MATOC) TO PROVIDE CONSTRUCTION SERVICES FOR OPERATIONS AND MAINTENANCE (OPERATIONS AND MAINTENANCE) FOR CIVIL AND MILITARY PROJECTS WITHIN THE GREAT LAKES AND OHIO RIVER DIVISION MISS",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "bid",
-      "notes": "Type: Solicitation · Due: Jul 30, 2026 · Solicitation: W912QR26RA012",
+      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA008",
       "products": [],
-      "added": "Jun 29, 2026",
+      "added": "Jul 9, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/fedfe9abb50d40b585d8b9354fd8c405/view",
+      "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
       "bc": ""
     }
   ]
