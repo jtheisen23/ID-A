@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-10T10:41:35.182Z",
-  "count": 15,
-  "samCount": 15,
+  "lastFetched": "2026-07-11T09:13:05.089Z",
+  "count": 13,
+  "samCount": 13,
   "projects": [
     {
       "id": "sam-0d0668faa3de4ca9a13c1463a2ce24a6",
@@ -17,38 +17,6 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/0d0668faa3de4ca9a13c1463a2ce24a6/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-c4aad9c3ecf74ac39e044b13a5ecfe30",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jul 14, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "Jul 1, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/c4aad9c3ecf74ac39e044b13a5ecfe30/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-5f0ae7bd9fb14f3bbf1ae562bdd2077c",
-      "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the  Charleston Armed Forces Reserve Center, Building 17001 located in Charleston, WV",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: Jun 25, 2026 · Solicitation: W912QR61618311",
-      "products": [],
-      "added": "Jun 30, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/5f0ae7bd9fb14f3bbf1ae562bdd2077c/view",
       "bc": ""
     },
     {
@@ -116,22 +84,6 @@
       "bc": ""
     },
     {
-      "id": "sam-0a3468f375124829a4f9abc7ad2dfb69",
-      "name": "FTC CDC Renovate B3069",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jul 10, 2026 · Solicitation: W912QR-61034642",
-      "products": [],
-      "added": "Jun 10, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/0a3468f375124829a4f9abc7ad2dfb69/view",
-      "bc": ""
-    },
-    {
       "id": "sam-39938085e7f7491ebffddb5f381c1981",
       "name": "Equipment Installation, Plumbing, and Furniture Assembly Services at Caven Point, NJ",
       "market": "Louisville",
@@ -145,6 +97,22 @@
       "added": "Jun 29, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/39938085e7f7491ebffddb5f381c1981/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-3d9995a1bc5447f5a25705f057be77dc",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "Jul 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/3d9995a1bc5447f5a25705f057be77dc/view",
       "bc": ""
     },
     {
