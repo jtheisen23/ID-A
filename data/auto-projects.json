@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-07-13T10:46:49.266Z",
+  "lastFetched": "2026-07-14T09:42:31.654Z",
   "count": 13,
   "samCount": 13,
   "projects": [
+    {
+      "id": "sam-3d9995a1bc5447f5a25705f057be77dc",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "Jul 10, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/3d9995a1bc5447f5a25705f057be77dc/view",
+      "bc": ""
+    },
     {
       "id": "sam-0d0668faa3de4ca9a13c1463a2ce24a6",
       "name": "Green River Lake Tailwater Vault Toilet Project - Construction",
@@ -17,6 +33,38 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/0d0668faa3de4ca9a13c1463a2ce24a6/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-9a647182146746d3849785114b287f54",
+      "name": "Cyber Maintenance Hangar Modernization",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA057",
+      "products": [],
+      "added": "Jul 6, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9a647182146746d3849785114b287f54/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-3752a65feabc46978379104ff2c2738f",
+      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26BA017",
+      "products": [],
+      "added": "Jun 26, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/3752a65feabc46978379104ff2c2738f/view",
       "bc": ""
     },
     {
@@ -100,22 +148,6 @@
       "bc": ""
     },
     {
-      "id": "sam-3d9995a1bc5447f5a25705f057be77dc",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "Jul 10, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/3d9995a1bc5447f5a25705f057be77dc/view",
-      "bc": ""
-    },
-    {
       "id": "sam-bf96903d99ea468a84dc5e16f9373942",
       "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
       "market": "Louisville",
@@ -129,22 +161,6 @@
       "added": "Jul 6, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bf96903d99ea468a84dc5e16f9373942/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-9a647182146746d3849785114b287f54",
-      "name": "Cyber Maintenance Hangar Modernization",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA057",
-      "products": [],
-      "added": "Jul 6, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9a647182146746d3849785114b287f54/view",
       "bc": ""
     },
     {
@@ -177,22 +193,6 @@
       "added": "Jun 26, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/60a0940e49ac4bbeb1cfd8ae3361d625/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-3752a65feabc46978379104ff2c2738f",
-      "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26BA017",
-      "products": [],
-      "added": "Jun 26, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/3752a65feabc46978379104ff2c2738f/view",
       "bc": ""
     },
     {
