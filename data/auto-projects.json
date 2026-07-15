@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-14T09:42:31.654Z",
-  "count": 13,
-  "samCount": 13,
+  "lastFetched": "2026-07-15T09:46:11.991Z",
+  "count": 15,
+  "samCount": 15,
   "projects": [
     {
       "id": "sam-3d9995a1bc5447f5a25705f057be77dc",
@@ -33,6 +33,22 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/0d0668faa3de4ca9a13c1463a2ce24a6/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-bf96903d99ea468a84dc5e16f9373942",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jul 21, 2026 · Solicitation: W912QR26BA016",
+      "products": [],
+      "added": "Jul 6, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bf96903d99ea468a84dc5e16f9373942/view",
       "bc": ""
     },
     {
@@ -148,22 +164,6 @@
       "bc": ""
     },
     {
-      "id": "sam-bf96903d99ea468a84dc5e16f9373942",
-      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 21, 2026 · Solicitation: W912QR26BA016",
-      "products": [],
-      "added": "Jul 6, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bf96903d99ea468a84dc5e16f9373942/view",
-      "bc": ""
-    },
-    {
       "id": "sam-fedfe9abb50d40b585d8b9354fd8c405",
       "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
       "market": "Louisville",
@@ -193,6 +193,38 @@
       "added": "Jun 26, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/60a0940e49ac4bbeb1cfd8ae3361d625/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-f536d631c6784ce69446aa546b3e4bf9",
+      "name": "Addition and Renovation B317 Communication Facility - Niagara Falls Air Reserve Station, NY",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 13, 2026 · Solicitation: W912QR61738886",
+      "products": [],
+      "added": "Jul 14, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/f536d631c6784ce69446aa546b3e4bf9/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-a79e245c502b41b3a47c28253707eafd",
+      "name": "Construction of Aeromedical Evacuation Squadron Facility, Joint Base Charleston, SC",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "health",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 13, 2026 · Solicitation: W912QR26BA019",
+      "products": [],
+      "added": "Jul 14, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/a79e245c502b41b3a47c28253707eafd/view",
       "bc": ""
     },
     {
