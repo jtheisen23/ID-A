@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-16T09:52:34.581Z",
-  "count": 15,
-  "samCount": 15,
+  "lastFetched": "2026-07-17T09:43:04.316Z",
+  "count": 13,
+  "samCount": 13,
   "projects": [
     {
       "id": "sam-6396eab212b847cebbe4096fb5c1ae5b",
@@ -17,22 +17,6 @@
       "added": "Jul 15, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/6396eab212b847cebbe4096fb5c1ae5b/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-3d9995a1bc5447f5a25705f057be77dc",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jul 20, 2026 · Solicitation: W912QR26RA051",
-      "products": [],
-      "added": "Jul 10, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/3d9995a1bc5447f5a25705f057be77dc/view",
       "bc": ""
     },
     {
@@ -68,22 +52,6 @@
       "bc": ""
     },
     {
-      "id": "sam-ebc65dd2b62442f3b619942129ddc1ec",
-      "name": "FTC Air Traffic Control Tower",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Presolicitation · Due: Jul 1, 2026 · Solicitation: W912QR26RATCT",
-      "products": [],
-      "added": "Jun 23, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/ebc65dd2b62442f3b619942129ddc1ec/view",
-      "bc": ""
-    },
-    {
       "id": "sam-d51dd1850a5f4b7697d87b150174ca24",
       "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
       "market": "Louisville",
@@ -116,19 +84,35 @@
       "bc": ""
     },
     {
-      "id": "sam-269a3b229b6e48e0a36022bccccd931b",
-      "name": "New Castle AMSA / VMS Maintenance Facility - New Castle, PA",
+      "id": "sam-c36721a76ba74bf9a9d2ec128437c6b9",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 16, 2026 · Solicitation: W912QR26BA007",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 6, 2026 · Solicitation: W912QR26RA051",
       "products": [],
-      "added": "Jun 16, 2026",
+      "added": "Jul 16, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/269a3b229b6e48e0a36022bccccd931b/view",
+      "url": "https://sam.gov/workspace/contract/opp/c36721a76ba74bf9a9d2ec128437c6b9/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-39463dbefdc54593b3b81772320c8f6b",
+      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jul 29, 2026 · Solicitation: W912QR26BA008",
+      "products": [],
+      "added": "Jul 16, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/39463dbefdc54593b3b81772320c8f6b/view",
       "bc": ""
     },
     {
@@ -145,22 +129,6 @@
       "added": "Jun 29, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/fedfe9abb50d40b585d8b9354fd8c405/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-60a0940e49ac4bbeb1cfd8ae3361d625",
-      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 29, 2026 · Solicitation: W912QR26BA008",
-      "products": [],
-      "added": "Jun 26, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/60a0940e49ac4bbeb1cfd8ae3361d625/view",
       "bc": ""
     },
     {
