@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-17T09:43:04.316Z",
+  "lastFetched": "2026-07-18T09:13:28.461Z",
   "count": 13,
   "samCount": 13,
   "projects": [
@@ -36,22 +36,6 @@
       "bc": ""
     },
     {
-      "id": "sam-bf96903d99ea468a84dc5e16f9373942",
-      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jul 21, 2026 · Solicitation: W912QR26BA016",
-      "products": [],
-      "added": "Jul 6, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bf96903d99ea468a84dc5e16f9373942/view",
-      "bc": ""
-    },
-    {
       "id": "sam-d51dd1850a5f4b7697d87b150174ca24",
       "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
       "market": "Louisville",
@@ -81,6 +65,22 @@
       "added": "Jun 18, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/ddf7a273a817476ebf17590cff71c4bd/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-b1eb27c2776246c0ad56f1a103f13c70",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 3, 2026 · Solicitation: W912QR26BA016",
+      "products": [],
+      "added": "Jul 17, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/b1eb27c2776246c0ad56f1a103f13c70/view",
       "bc": ""
     },
     {
