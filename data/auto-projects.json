@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-20T10:37:15.990Z",
+  "lastFetched": "2026-07-21T10:10:59.542Z",
   "count": 12,
   "samCount": 12,
   "projects": [
@@ -52,7 +52,7 @@
       "bc": ""
     },
     {
-      "id": "sam-b1eb27c2776246c0ad56f1a103f13c70",
+      "id": "sam-92f29f71fafd4030b2135ba94999b3a3",
       "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
       "market": "Louisville",
       "tier": "1",
@@ -62,9 +62,9 @@
       "stage": "warm",
       "notes": "Type: Solicitation · Due: Aug 3, 2026 · Solicitation: W912QR26BA016",
       "products": [],
-      "added": "Jul 17, 2026",
+      "added": "Jul 20, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/b1eb27c2776246c0ad56f1a103f13c70/view",
+      "url": "https://sam.gov/workspace/contract/opp/92f29f71fafd4030b2135ba94999b3a3/view",
       "bc": ""
     },
     {
@@ -100,6 +100,38 @@
       "bc": ""
     },
     {
+      "id": "sam-9cfe920b04ef4745b8b81d76fadf88ca",
+      "name": "Cyber Maintenance Hangar Modernization",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA057",
+      "products": [],
+      "added": "Jul 15, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9cfe920b04ef4745b8b81d76fadf88ca/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-bae8017d9cdb45ed84c567c0e5f4b2d6",
+      "name": "IDIQ DESIGN/BUILD, DESIGN BID/BUILD MULTIPLE AWARD TASK ORDER CONTRACT (MATOC) TO PROVIDE CONSTRUCTION SERVICES FOR OPERATIONS AND MAINTENANCE (OPERATIONS AND MAINTENANCE) FOR CIVIL AND MILITARY PROJECTS WITHIN THE GREAT LAKES AND OHIO RIVER DIVISION MISS",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA008",
+      "products": [],
+      "added": "Jul 9, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
+      "bc": ""
+    },
+    {
       "id": "sam-fedfe9abb50d40b585d8b9354fd8c405",
       "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
       "market": "Louisville",
@@ -113,22 +145,6 @@
       "added": "Jun 29, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/fedfe9abb50d40b585d8b9354fd8c405/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-9cfe920b04ef4745b8b81d76fadf88ca",
-      "name": "Cyber Maintenance Hangar Modernization",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA057",
-      "products": [],
-      "added": "Jul 15, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9cfe920b04ef4745b8b81d76fadf88ca/view",
       "bc": ""
     },
     {
@@ -177,22 +193,6 @@
       "added": "Jul 14, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/f536d631c6784ce69446aa546b3e4bf9/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-bae8017d9cdb45ed84c567c0e5f4b2d6",
-      "name": "IDIQ DESIGN/BUILD, DESIGN BID/BUILD MULTIPLE AWARD TASK ORDER CONTRACT (MATOC) TO PROVIDE CONSTRUCTION SERVICES FOR OPERATIONS AND MAINTENANCE (OPERATIONS AND MAINTENANCE) FOR CIVIL AND MILITARY PROJECTS WITHIN THE GREAT LAKES AND OHIO RIVER DIVISION MISS",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA008",
-      "products": [],
-      "added": "Jul 9, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
       "bc": ""
     }
   ]
