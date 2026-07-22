@@ -1,10 +1,10 @@
 {
-  "lastFetched": "2026-07-21T10:10:59.542Z",
+  "lastFetched": "2026-07-22T10:10:39.275Z",
   "count": 12,
   "samCount": 12,
   "projects": [
     {
-      "id": "sam-6396eab212b847cebbe4096fb5c1ae5b",
+      "id": "sam-385907c89e004cea88335f6e05cdac53",
       "name": "Unmanned Fusion Warfare Laboratory at NSWC Crane IN",
       "market": "Louisville",
       "tier": "1",
@@ -14,9 +14,9 @@
       "stage": "hot",
       "notes": "Type: Solicitation · Due: Jul 22, 2026 · Solicitation: W912QR26BA017",
       "products": [],
-      "added": "Jul 15, 2026",
+      "added": "Jul 21, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/6396eab212b847cebbe4096fb5c1ae5b/view",
+      "url": "https://sam.gov/workspace/contract/opp/385907c89e004cea88335f6e05cdac53/view",
       "bc": ""
     },
     {
@@ -49,6 +49,22 @@
       "added": "Jun 22, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/d51dd1850a5f4b7697d87b150174ca24/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-d4acffb4a5d74a4f997dd9f818558cce",
+      "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Jul 30, 2026 · Solicitation: W912QR26RA012",
+      "products": [],
+      "added": "Jul 21, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/d4acffb4a5d74a4f997dd9f818558cce/view",
       "bc": ""
     },
     {
@@ -129,22 +145,6 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-fedfe9abb50d40b585d8b9354fd8c405",
-      "name": "Reconfigure and Modernize the 1600-member LTC Luis E. Martinez Army Reserve Center (ARC) in Perrine, FL",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 30, 2026 · Solicitation: W912QR26RA012",
-      "products": [],
-      "added": "Jun 29, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/fedfe9abb50d40b585d8b9354fd8c405/view",
       "bc": ""
     },
     {
