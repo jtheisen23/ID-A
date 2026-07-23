@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-23T10:08:57.393Z",
+    "samCount": 12,
+    "total": 12,
+    "status": "success"
+  },
+  {
     "date": "2026-07-22T10:10:39.276Z",
     "samCount": 12,
     "total": 12,
@@ -169,12 +175,6 @@
   },
   {
     "date": "2026-06-24T10:38:19.638Z",
-    "samCount": 16,
-    "total": 16,
-    "status": "success"
-  },
-  {
-    "date": "2026-06-23T10:51:40.118Z",
     "samCount": 16,
     "total": 16,
     "status": "success"

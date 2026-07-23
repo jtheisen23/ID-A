@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-22T10:10:39.275Z",
+  "lastFetched": "2026-07-23T10:08:57.366Z",
   "count": 12,
   "samCount": 12,
   "projects": [
@@ -20,6 +20,22 @@
       "bc": ""
     },
     {
+      "id": "sam-39463dbefdc54593b3b81772320c8f6b",
+      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Jul 29, 2026 · Solicitation: W912QR26BA008",
+      "products": [],
+      "added": "Jul 16, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/39463dbefdc54593b3b81772320c8f6b/view",
+      "bc": ""
+    },
+    {
       "id": "sam-0d0668faa3de4ca9a13c1463a2ce24a6",
       "name": "Green River Lake Tailwater Vault Toilet Project - Construction",
       "market": "Louisville",
@@ -36,19 +52,19 @@
       "bc": ""
     },
     {
-      "id": "sam-d51dd1850a5f4b7697d87b150174ca24",
-      "name": "Solicitation for Homestead ARB BAK 12/14 Aircraft Arresting System",
+      "id": "sam-8d4e99a768034ca882b40eef344bb48b",
+      "name": "NOLIN RIVER LAKE TAILWATER RESTROOM CONSTRUCTION",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Jun 25, 2026 · Solicitation: W912QR26RA050",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26QA067",
       "products": [],
-      "added": "Jun 22, 2026",
+      "added": "Jul 22, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/d51dd1850a5f4b7697d87b150174ca24/view",
+      "url": "https://sam.gov/workspace/contract/opp/8d4e99a768034ca882b40eef344bb48b/view",
       "bc": ""
     },
     {
@@ -97,22 +113,6 @@
       "added": "Jul 16, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/c36721a76ba74bf9a9d2ec128437c6b9/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-39463dbefdc54593b3b81772320c8f6b",
-      "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Jul 29, 2026 · Solicitation: W912QR26BA008",
-      "products": [],
-      "added": "Jul 16, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/39463dbefdc54593b3b81772320c8f6b/view",
       "bc": ""
     },
     {
