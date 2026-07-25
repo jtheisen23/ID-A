@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-24T10:03:37.791Z",
-  "count": 12,
-  "samCount": 12,
+  "lastFetched": "2026-07-25T09:24:13.419Z",
+  "count": 15,
+  "samCount": 15,
   "projects": [
     {
       "id": "sam-7512ad88736e4246b400b7c7e05099c3",
@@ -68,7 +68,7 @@
       "bc": ""
     },
     {
-      "id": "sam-8580571846f447f082bad19d5b4bef25",
+      "id": "sam-a173022f0d86414b9e02933de7906e5d",
       "name": "Construction of Aeromedical Evacuation Squadron Facility, Joint Base Charleston, SC",
       "market": "Louisville",
       "tier": "1",
@@ -78,9 +78,9 @@
       "stage": "warm",
       "notes": "Type: Solicitation · Due: Aug 13, 2026 · Solicitation: W912QR26BA019",
       "products": [],
-      "added": "Jul 23, 2026",
+      "added": "Jul 24, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/8580571846f447f082bad19d5b4bef25/view",
+      "url": "https://sam.gov/workspace/contract/opp/a173022f0d86414b9e02933de7906e5d/view",
       "bc": ""
     },
     {
@@ -177,6 +177,54 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-955d09849de144808fcf23a400ec6ede",
+      "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the Charleston Armed Forces Reserve Center, Building 17001 located in Charleston (Cross Lanes), West Virginia (WV)",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 24, 2026 · Solicitation: W912QR26RA059",
+      "products": [],
+      "added": "Jul 24, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/955d09849de144808fcf23a400ec6ede/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-7e2f3368c9b140618d61f36d59d31f7e",
+      "name": "D-B-B Dobbins Traffic Circle - MATOC Souteast Construction",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Combined Synopsis/Solicitation · Due: Aug 24, 2026 · Solicitation: W912QR26R1BZW",
+      "products": [],
+      "added": "Jul 24, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/7e2f3368c9b140618d61f36d59d31f7e/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-177992c072314ea0a5825b6c636389c5",
+      "name": "VIRTUALIZED ELECTROMAGNETIC WARFARE AND MISSION ENGINEERING CENTER (VEWMEC)",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 25, 2026 · Solicitation: W912QR26BA022",
+      "products": [],
+      "added": "Jul 24, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/177992c072314ea0a5825b6c636389c5/view",
       "bc": ""
     },
     {
