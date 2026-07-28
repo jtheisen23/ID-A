@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-27T10:59:07.139Z",
+  "lastFetched": "2026-07-28T10:18:21.209Z",
   "count": 15,
   "samCount": 15,
   "projects": [
@@ -17,6 +17,22 @@
       "added": "Jul 23, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/7512ad88736e4246b400b7c7e05099c3/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-48d0a74cfc284af0b60be661f7327e4d",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Aug 3, 2026 · Solicitation: W912QR26BA016",
+      "products": [],
+      "added": "Jul 23, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/48d0a74cfc284af0b60be661f7327e4d/view",
       "bc": ""
     },
     {
@@ -100,22 +116,6 @@
       "bc": ""
     },
     {
-      "id": "sam-48d0a74cfc284af0b60be661f7327e4d",
-      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 3, 2026 · Solicitation: W912QR26BA016",
-      "products": [],
-      "added": "Jul 23, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/48d0a74cfc284af0b60be661f7327e4d/view",
-      "bc": ""
-    },
-    {
       "id": "sam-8d4e99a768034ca882b40eef344bb48b",
       "name": "NOLIN RIVER LAKE TAILWATER RESTROOM CONSTRUCTION",
       "market": "Louisville",
@@ -180,6 +180,22 @@
       "bc": ""
     },
     {
+      "id": "sam-1ea27dbfe0e646d3a1cf64e69c190a3b",
+      "name": "VIRTUALIZED ELECTROMAGNETIC WARFARE AND MISSION ENGINEERING CENTER (VEWMEC)",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 25, 2026 · Solicitation: W912QR26BA022",
+      "products": [],
+      "added": "Jul 27, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/1ea27dbfe0e646d3a1cf64e69c190a3b/view",
+      "bc": ""
+    },
+    {
       "id": "sam-955d09849de144808fcf23a400ec6ede",
       "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the Charleston Armed Forces Reserve Center, Building 17001 located in Charleston (Cross Lanes), West Virginia (WV)",
       "market": "Louisville",
@@ -209,22 +225,6 @@
       "added": "Jul 24, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/7e2f3368c9b140618d61f36d59d31f7e/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-177992c072314ea0a5825b6c636389c5",
-      "name": "VIRTUALIZED ELECTROMAGNETIC WARFARE AND MISSION ENGINEERING CENTER (VEWMEC)",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Aug 25, 2026 · Solicitation: W912QR26BA022",
-      "products": [],
-      "added": "Jul 24, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/177992c072314ea0a5825b6c636389c5/view",
       "bc": ""
     },
     {
