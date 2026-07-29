@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-07-28T10:18:21.209Z",
+  "lastFetched": "2026-07-29T10:24:42.115Z",
   "count": 15,
   "samCount": 15,
   "projects": [
@@ -148,6 +148,22 @@
       "bc": ""
     },
     {
+      "id": "sam-245cdf441b7f49259aa6fb46129a8026",
+      "name": "Fort Campbell Air Traffic Control Tower ",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 18, 2026 · Solicitation: W912QR26RA060",
+      "products": [],
+      "added": "Jul 15, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/245cdf441b7f49259aa6fb46129a8026/view",
+      "bc": ""
+    },
+    {
       "id": "sam-f536d631c6784ce69446aa546b3e4bf9",
       "name": "Addition and Renovation B317 Communication Facility - Niagara Falls Air Reserve Station, NY",
       "market": "Louisville",
@@ -225,22 +241,6 @@
       "added": "Jul 24, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/7e2f3368c9b140618d61f36d59d31f7e/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-245cdf441b7f49259aa6fb46129a8026",
-      "name": "Fort Campbell Air Traffic Control Tower ",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Aug 18, 2026 · Solicitation: W912QR26RA060",
-      "products": [],
-      "added": "Jul 15, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/245cdf441b7f49259aa6fb46129a8026/view",
       "bc": ""
     }
   ]
