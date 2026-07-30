@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-29T10:24:42.115Z",
-  "count": 15,
-  "samCount": 15,
+  "lastFetched": "2026-07-30T10:08:12.418Z",
+  "count": 17,
+  "samCount": 17,
   "projects": [
     {
       "id": "sam-7512ad88736e4246b400b7c7e05099c3",
@@ -84,6 +84,22 @@
       "bc": ""
     },
     {
+      "id": "sam-2bedb176127c449da1c23a53afbf96c1",
+      "name": "NOLIN RIVER LAKE TAILWATER RESTROOM CONSTRUCTION",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26QA067",
+      "products": [],
+      "added": "Jul 29, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/2bedb176127c449da1c23a53afbf96c1/view",
+      "bc": ""
+    },
+    {
       "id": "sam-a173022f0d86414b9e02933de7906e5d",
       "name": "Construction of Aeromedical Evacuation Squadron Facility, Joint Base Charleston, SC",
       "market": "Louisville",
@@ -113,22 +129,6 @@
       "added": "Jul 23, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/7e85f8bf72b24b75967e6399090d5ca8/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-8d4e99a768034ca882b40eef344bb48b",
-      "name": "NOLIN RIVER LAKE TAILWATER RESTROOM CONSTRUCTION",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26QA067",
-      "products": [],
-      "added": "Jul 22, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/8d4e99a768034ca882b40eef344bb48b/view",
       "bc": ""
     },
     {
@@ -196,7 +196,39 @@
       "bc": ""
     },
     {
-      "id": "sam-1ea27dbfe0e646d3a1cf64e69c190a3b",
+      "id": "sam-f236378b4ae04a29ac91c5a1066a60bc",
+      "name": "Fort Campbell Staging and Marshalling Area Design Build to Budget",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Sep 1, 2026 · Solicitation: W912QR26RA054",
+      "products": [],
+      "added": "Jul 29, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/f236378b4ae04a29ac91c5a1066a60bc/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-d49ed0e61943469380c33f7b031c22b7",
+      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 31, 2026 · Solicitation: W912QR26RA035",
+      "products": [],
+      "added": "Jul 29, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/d49ed0e61943469380c33f7b031c22b7/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-4717b2f93bcd44f889d86c8c4fa2d77d",
       "name": "VIRTUALIZED ELECTROMAGNETIC WARFARE AND MISSION ENGINEERING CENTER (VEWMEC)",
       "market": "Louisville",
       "tier": "1",
@@ -206,9 +238,9 @@
       "stage": "bid",
       "notes": "Type: Solicitation · Due: Aug 25, 2026 · Solicitation: W912QR26BA022",
       "products": [],
-      "added": "Jul 27, 2026",
+      "added": "Jul 29, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/1ea27dbfe0e646d3a1cf64e69c190a3b/view",
+      "url": "https://sam.gov/workspace/contract/opp/4717b2f93bcd44f889d86c8c4fa2d77d/view",
       "bc": ""
     },
     {
