@@ -1,8 +1,24 @@
 {
-  "lastFetched": "2026-07-30T10:08:12.418Z",
-  "count": 17,
-  "samCount": 17,
+  "lastFetched": "2026-07-31T10:25:02.787Z",
+  "count": 18,
+  "samCount": 18,
   "projects": [
+    {
+      "id": "sam-38248a203be14c81b570269fcdca0df8",
+      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Aug 3, 2026 · Solicitation: W912QR26BA016",
+      "products": [],
+      "added": "Jul 30, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/38248a203be14c81b570269fcdca0df8/view",
+      "bc": ""
+    },
     {
       "id": "sam-7512ad88736e4246b400b7c7e05099c3",
       "name": "W912QR26BA008 - Construction of TMAC at NSWC - Crane, IN",
@@ -17,22 +33,6 @@
       "added": "Jul 23, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/7512ad88736e4246b400b7c7e05099c3/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-48d0a74cfc284af0b60be661f7327e4d",
-      "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "hot",
-      "notes": "Type: Solicitation · Due: Aug 3, 2026 · Solicitation: W912QR26BA016",
-      "products": [],
-      "added": "Jul 23, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/48d0a74cfc284af0b60be661f7327e4d/view",
       "bc": ""
     },
     {
@@ -84,6 +84,38 @@
       "bc": ""
     },
     {
+      "id": "sam-4d366ed7835c45d4a6ab7038f9364585",
+      "name": "Construction of Aeromedical Evacuation Squadron Facility, Joint Base Charleston, SC",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "health",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 13, 2026 · Solicitation: W912QR26BA019",
+      "products": [],
+      "added": "Jul 30, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/4d366ed7835c45d4a6ab7038f9364585/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-3cf551f9d475477aa53296b2c7d92aea",
+      "name": "Notice of Intent to Sole Source - FEMA Decommissioning BGAD",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 14, 2026 · Solicitation: NOI_SoleSource_W912QR25CA038-P00002",
+      "products": [],
+      "added": "Jul 30, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/3cf551f9d475477aa53296b2c7d92aea/view",
+      "bc": ""
+    },
+    {
       "id": "sam-2bedb176127c449da1c23a53afbf96c1",
       "name": "NOLIN RIVER LAKE TAILWATER RESTROOM CONSTRUCTION",
       "market": "Louisville",
@@ -97,22 +129,6 @@
       "added": "Jul 29, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/2bedb176127c449da1c23a53afbf96c1/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-a173022f0d86414b9e02933de7906e5d",
-      "name": "Construction of Aeromedical Evacuation Squadron Facility, Joint Base Charleston, SC",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "health",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 13, 2026 · Solicitation: W912QR26BA019",
-      "products": [],
-      "added": "Jul 24, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/a173022f0d86414b9e02933de7906e5d/view",
       "bc": ""
     },
     {
