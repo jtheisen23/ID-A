@@ -1,7 +1,7 @@
 {
-  "lastFetched": "2026-07-31T10:25:02.787Z",
-  "count": 18,
-  "samCount": 18,
+  "lastFetched": "2026-08-01T09:46:41.818Z",
+  "count": 19,
+  "samCount": 19,
   "projects": [
     {
       "id": "sam-38248a203be14c81b570269fcdca0df8",
@@ -81,6 +81,22 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/0d0668faa3de4ca9a13c1463a2ce24a6/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-519b4e5b675c44498e22fedd4aa692a2",
+      "name": "Fort Campbell Air Traffic Control Tower ",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 18, 2026 · Solicitation: W912QR26RA060",
+      "products": [],
+      "added": "Jul 31, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/519b4e5b675c44498e22fedd4aa692a2/view",
       "bc": ""
     },
     {
@@ -164,22 +180,6 @@
       "bc": ""
     },
     {
-      "id": "sam-245cdf441b7f49259aa6fb46129a8026",
-      "name": "Fort Campbell Air Traffic Control Tower ",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 18, 2026 · Solicitation: W912QR26RA060",
-      "products": [],
-      "added": "Jul 15, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/245cdf441b7f49259aa6fb46129a8026/view",
-      "bc": ""
-    },
-    {
       "id": "sam-f536d631c6784ce69446aa546b3e4bf9",
       "name": "Addition and Renovation B317 Communication Facility - Niagara Falls Air Reserve Station, NY",
       "market": "Louisville",
@@ -209,6 +209,22 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-1fa960cf86f540788b9c67f28d909d1e",
+      "name": "Design-Build Maintenance and Repair of the General Stilwell Memorial Army Reserve Center (ARC) Training Building 1520, TX",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 31, 2026 · Solicitation: W912QR26RA055",
+      "products": [],
+      "added": "Jul 31, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/1fa960cf86f540788b9c67f28d909d1e/view",
       "bc": ""
     },
     {
