@@ -1,10 +1,10 @@
 {
-  "lastFetched": "2026-08-03T11:09:34.910Z",
+  "lastFetched": "2026-08-04T10:24:20.724Z",
   "count": 19,
   "samCount": 19,
   "projects": [
     {
-      "id": "sam-38248a203be14c81b570269fcdca0df8",
+      "id": "sam-a881e0dce3854b52b523342388f8e9d7",
       "name": "Construction of Aerospace Ground Equipment (AGE) Facility Joint Base San Antonio - Lackland, TX.",
       "market": "Louisville",
       "tier": "1",
@@ -14,9 +14,9 @@
       "stage": "hot",
       "notes": "Type: Solicitation · Due: Aug 3, 2026 · Solicitation: W912QR26BA016",
       "products": [],
-      "added": "Jul 30, 2026",
+      "added": "Aug 3, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/38248a203be14c81b570269fcdca0df8/view",
+      "url": "https://sam.gov/workspace/contract/opp/a881e0dce3854b52b523342388f8e9d7/view",
       "bc": ""
     },
     {
@@ -68,6 +68,38 @@
       "bc": ""
     },
     {
+      "id": "sam-9cfe920b04ef4745b8b81d76fadf88ca",
+      "name": "Cyber Maintenance Hangar Modernization",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA057",
+      "products": [],
+      "added": "Jul 15, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/9cfe920b04ef4745b8b81d76fadf88ca/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-bae8017d9cdb45ed84c567c0e5f4b2d6",
+      "name": "IDIQ DESIGN/BUILD, DESIGN BID/BUILD MULTIPLE AWARD TASK ORDER CONTRACT (MATOC) TO PROVIDE CONSTRUCTION SERVICES FOR OPERATIONS AND MAINTENANCE (OPERATIONS AND MAINTENANCE) FOR CIVIL AND MILITARY PROJECTS WITHIN THE GREAT LAKES AND OHIO RIVER DIVISION MISS",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA008",
+      "products": [],
+      "added": "Jul 9, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
+      "bc": ""
+    },
+    {
       "id": "sam-0d0668faa3de4ca9a13c1463a2ce24a6",
       "name": "Green River Lake Tailwater Vault Toilet Project - Construction",
       "market": "Louisville",
@@ -81,6 +113,22 @@
       "added": "Jul 9, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/0d0668faa3de4ca9a13c1463a2ce24a6/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-0946598b950e418c91bae3745f1c5cc7",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "warm",
+      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "Aug 3, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/0946598b950e418c91bae3745f1c5cc7/view",
       "bc": ""
     },
     {
@@ -148,35 +196,35 @@
       "bc": ""
     },
     {
-      "id": "sam-7e85f8bf72b24b75967e6399090d5ca8",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "id": "sam-955d09849de144808fcf23a400ec6ede",
+      "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the Charleston Armed Forces Reserve Center, Building 17001 located in Charleston (Cross Lanes), West Virginia (WV)",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26RA051",
+      "notes": "Type: Solicitation · Due: Aug 24, 2026 · Solicitation: W912QR26RA059",
       "products": [],
-      "added": "Jul 23, 2026",
+      "added": "Jul 24, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/7e85f8bf72b24b75967e6399090d5ca8/view",
+      "url": "https://sam.gov/workspace/contract/opp/955d09849de144808fcf23a400ec6ede/view",
       "bc": ""
     },
     {
-      "id": "sam-9cfe920b04ef4745b8b81d76fadf88ca",
-      "name": "Cyber Maintenance Hangar Modernization",
+      "id": "sam-7e2f3368c9b140618d61f36d59d31f7e",
+      "name": "D-B-B Dobbins Traffic Circle - MATOC Souteast Construction",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA057",
+      "notes": "Type: Combined Synopsis/Solicitation · Due: Aug 24, 2026 · Solicitation: W912QR26R1BZW",
       "products": [],
-      "added": "Jul 15, 2026",
+      "added": "Jul 24, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/9cfe920b04ef4745b8b81d76fadf88ca/view",
+      "url": "https://sam.gov/workspace/contract/opp/7e2f3368c9b140618d61f36d59d31f7e/view",
       "bc": ""
     },
     {
@@ -193,22 +241,6 @@
       "added": "Jul 14, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/f536d631c6784ce69446aa546b3e4bf9/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-bae8017d9cdb45ed84c567c0e5f4b2d6",
-      "name": "IDIQ DESIGN/BUILD, DESIGN BID/BUILD MULTIPLE AWARD TASK ORDER CONTRACT (MATOC) TO PROVIDE CONSTRUCTION SERVICES FOR OPERATIONS AND MAINTENANCE (OPERATIONS AND MAINTENANCE) FOR CIVIL AND MILITARY PROJECTS WITHIN THE GREAT LAKES AND OHIO RIVER DIVISION MISS",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 10, 2026 · Solicitation: W912QR26RA008",
-      "products": [],
-      "added": "Jul 9, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/bae8017d9cdb45ed84c567c0e5f4b2d6/view",
       "bc": ""
     },
     {
@@ -273,38 +305,6 @@
       "added": "Jul 29, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/4717b2f93bcd44f889d86c8c4fa2d77d/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-955d09849de144808fcf23a400ec6ede",
-      "name": "Design/Build Maintenance and Repair Army Reserve (MRAR) of the Charleston Armed Forces Reserve Center, Building 17001 located in Charleston (Cross Lanes), West Virginia (WV)",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Aug 24, 2026 · Solicitation: W912QR26RA059",
-      "products": [],
-      "added": "Jul 24, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/955d09849de144808fcf23a400ec6ede/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-7e2f3368c9b140618d61f36d59d31f7e",
-      "name": "D-B-B Dobbins Traffic Circle - MATOC Souteast Construction",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Combined Synopsis/Solicitation · Due: Aug 24, 2026 · Solicitation: W912QR26R1BZW",
-      "products": [],
-      "added": "Jul 24, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/7e2f3368c9b140618d61f36d59d31f7e/view",
       "bc": ""
     }
   ]
