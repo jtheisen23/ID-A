@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-08-04T10:24:20.724Z",
+  "lastFetched": "2026-08-05T10:20:36.566Z",
   "count": 19,
   "samCount": 19,
   "projects": [
@@ -17,6 +17,38 @@
       "added": "Aug 3, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/a881e0dce3854b52b523342388f8e9d7/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-0946598b950e418c91bae3745f1c5cc7",
+      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26RA051",
+      "products": [],
+      "added": "Aug 3, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/0946598b950e418c91bae3745f1c5cc7/view",
+      "bc": ""
+    },
+    {
+      "id": "sam-2bedb176127c449da1c23a53afbf96c1",
+      "name": "NOLIN RIVER LAKE TAILWATER RESTROOM CONSTRUCTION",
+      "market": "Louisville",
+      "tier": "1",
+      "vertical": "corp",
+      "value": "—",
+      "gc": "W072 ENDIST LOUISVILLE",
+      "stage": "hot",
+      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26QA067",
+      "products": [],
+      "added": "Jul 29, 2026",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/2bedb176127c449da1c23a53afbf96c1/view",
       "bc": ""
     },
     {
@@ -116,19 +148,19 @@
       "bc": ""
     },
     {
-      "id": "sam-0946598b950e418c91bae3745f1c5cc7",
-      "name": "Design Bid Build Construction of a Collective Enlisted Training Barracks at Devens RFTA, MA",
+      "id": "sam-e89002264612476a88e44db1e7d8534c",
+      "name": "Addition and Renovation B317 Communication Facility - Niagara Falls Air Reserve Station, NY",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26RA051",
+      "notes": "Type: Solicitation · Due: Aug 20, 2026 · Solicitation: W912QR61738886",
       "products": [],
-      "added": "Aug 3, 2026",
+      "added": "Aug 4, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/0946598b950e418c91bae3745f1c5cc7/view",
+      "url": "https://sam.gov/workspace/contract/opp/e89002264612476a88e44db1e7d8534c/view",
       "bc": ""
     },
     {
@@ -180,19 +212,19 @@
       "bc": ""
     },
     {
-      "id": "sam-2bedb176127c449da1c23a53afbf96c1",
-      "name": "NOLIN RIVER LAKE TAILWATER RESTROOM CONSTRUCTION",
+      "id": "sam-4717b2f93bcd44f889d86c8c4fa2d77d",
+      "name": "VIRTUALIZED ELECTROMAGNETIC WARFARE AND MISSION ENGINEERING CENTER (VEWMEC)",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
       "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 11, 2026 · Solicitation: W912QR26QA067",
+      "notes": "Type: Solicitation · Due: Aug 25, 2026 · Solicitation: W912QR26BA022",
       "products": [],
       "added": "Jul 29, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/2bedb176127c449da1c23a53afbf96c1/view",
+      "url": "https://sam.gov/workspace/contract/opp/4717b2f93bcd44f889d86c8c4fa2d77d/view",
       "bc": ""
     },
     {
@@ -228,19 +260,19 @@
       "bc": ""
     },
     {
-      "id": "sam-f536d631c6784ce69446aa546b3e4bf9",
-      "name": "Addition and Renovation B317 Communication Facility - Niagara Falls Air Reserve Station, NY",
+      "id": "sam-1673baf4f9bc466388a775ea5bc8f4fa",
+      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
       "market": "Louisville",
       "tier": "1",
       "vertical": "corp",
       "value": "—",
       "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "warm",
-      "notes": "Type: Solicitation · Due: Aug 13, 2026 · Solicitation: W912QR61738886",
+      "stage": "bid",
+      "notes": "Type: Solicitation · Due: Aug 31, 2026 · Solicitation: W912QR26RA035",
       "products": [],
-      "added": "Jul 14, 2026",
+      "added": "Aug 4, 2026",
       "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/f536d631c6784ce69446aa546b3e4bf9/view",
+      "url": "https://sam.gov/workspace/contract/opp/1673baf4f9bc466388a775ea5bc8f4fa/view",
       "bc": ""
     },
     {
@@ -273,38 +305,6 @@
       "added": "Jul 29, 2026",
       "source": "SAM.gov",
       "url": "https://sam.gov/workspace/contract/opp/f236378b4ae04a29ac91c5a1066a60bc/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-d49ed0e61943469380c33f7b031c22b7",
-      "name": "Repair AMSA/ECS- Arden Hills Army Reserve Center, Minnesota",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Aug 31, 2026 · Solicitation: W912QR26RA035",
-      "products": [],
-      "added": "Jul 29, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/d49ed0e61943469380c33f7b031c22b7/view",
-      "bc": ""
-    },
-    {
-      "id": "sam-4717b2f93bcd44f889d86c8c4fa2d77d",
-      "name": "VIRTUALIZED ELECTROMAGNETIC WARFARE AND MISSION ENGINEERING CENTER (VEWMEC)",
-      "market": "Louisville",
-      "tier": "1",
-      "vertical": "corp",
-      "value": "—",
-      "gc": "W072 ENDIST LOUISVILLE",
-      "stage": "bid",
-      "notes": "Type: Solicitation · Due: Aug 25, 2026 · Solicitation: W912QR26BA022",
-      "products": [],
-      "added": "Jul 29, 2026",
-      "source": "SAM.gov",
-      "url": "https://sam.gov/workspace/contract/opp/4717b2f93bcd44f889d86c8c4fa2d77d/view",
       "bc": ""
     }
   ]
